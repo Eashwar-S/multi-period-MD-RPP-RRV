@@ -12,7 +12,11 @@ from datetime import datetime, timedelta
 FREEZING_TEMP = 0  # °C
 PRECIPITATION_THRESHOLD = 0.1  # mm
 SNOWFALL_THRESHOLD = 0  # mm
-GOOGLE_MAPS_API_KEY = ""
+
+with open('../.env/GOOGLE_API_KEY.txt', 'r') as file:
+    GOOGLE_MAPS_API_KEY = file.read().strip()  # .strip() removes any extra whitespace or newline characters
+
+print(GOOGLE_MAPS_API_KEY)
 
 def download_and_save_graph(area_of_interest, north, east, south, west, threshold, filename):
     """
