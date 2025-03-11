@@ -12,6 +12,7 @@ from datetime import datetime, timedelta
 FREEZING_TEMP = 0  # °C
 PRECIPITATION_THRESHOLD = 0.1  # mm
 SNOWFALL_THRESHOLD = 0  # mm
+GOOGLE_MAPS_API_KEY = ""
 
 def download_and_save_graph(area_of_interest, north, east, south, west, threshold, filename):
     """
@@ -36,7 +37,7 @@ def download_and_save_graph(area_of_interest, north, east, south, west, threshol
     G = ox.graph_from_bbox(bbox=tuple([west, south, east, north]), retain_all=False, custom_filter=roads_filter)
     print(G.nodes(data=True))
     
-    G = ox.elevation.add_node_elevations_google(G, api_key="AIzaSyDbjBao76hNz8pY3GPnIKUoJ4wBn8FR4j0")
+    G = ox.elevation.add_node_elevations_google(G, api_key=GOOGLE_MAPS_API_KEY)
 
     G = ox.consolidate_intersections(ox.project_graph(G.copy()), tolerance=threshold, rebuild_graph=True, dead_ends=False)
 
