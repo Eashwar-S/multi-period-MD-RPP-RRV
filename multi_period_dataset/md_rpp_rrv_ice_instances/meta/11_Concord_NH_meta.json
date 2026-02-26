@@ -1,0 +1,29 @@
+{
+  "instance_id": 11,
+  "place": "Concord",
+  "state": "NH",
+  "center_lat": 43.2081,
+  "center_lon": -71.5376,
+  "dist_m": 8000,
+  "timezone": "America/New_York",
+  "start_date": "2026-02-10",
+  "end_date": "2026-02-13",
+  "event_context": "New England clipper snow/ice potential",
+  "chosen_intersection_tolerance_m": 150,
+  "computed_nodes": 182,
+  "computed_edges": 733,
+  "lcc_node_frac": 1.0,
+  "major_edge_frac": 0.3506139154160982,
+  "weather_interval": "hourly",
+  "planning_interval_min": 30,
+  "mission_window_local": {
+    "start_hour": 16,
+    "end_hour": 20
+  },
+  "graph_path": "md_rpp_rrv_ice_instances\\graphs\\11_Concord_NH.pickle",
+  "weather_path": "md_rpp_rrv_ice_instances\\weather\\11_Concord_NH_hourly.csv",
+  "node_to_sample_path": "md_rpp_rrv_ice_instances\\meta\\11_Concord_NH_node_to_sample.json",
+  "n_weather_samples": 5,
+  "tolerance_sweep_path": "md_rpp_rrv_ice_instances\\diagnostics\\11_Concord_NH_tolerance_sweep.csv",
+  "passable_refreeze_window": false
+}

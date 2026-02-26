@@ -1,0 +1,29 @@
+{
+  "instance_id": 8,
+  "place": "Rochester",
+  "state": "NY",
+  "center_lat": 43.1566,
+  "center_lon": -77.6088,
+  "dist_m": 6500,
+  "timezone": "America/New_York",
+  "start_date": "2025-11-26",
+  "end_date": "2025-11-30",
+  "event_context": "Lake-effect / post-snow refreeze potential late Nov 2025",
+  "chosen_intersection_tolerance_m": 60,
+  "computed_nodes": 1072,
+  "computed_edges": 5240,
+  "lcc_node_frac": 1.0,
+  "major_edge_frac": 0.3299618320610687,
+  "weather_interval": "hourly",
+  "planning_interval_min": 30,
+  "mission_window_local": {
+    "start_hour": 16,
+    "end_hour": 20
+  },
+  "graph_path": "md_rpp_rrv_ice_instances\\graphs\\08_Rochester_NY.pickle",
+  "weather_path": "md_rpp_rrv_ice_instances\\weather\\08_Rochester_NY_hourly.csv",
+  "node_to_sample_path": "md_rpp_rrv_ice_instances\\meta\\08_Rochester_NY_node_to_sample.json",
+  "n_weather_samples": 5,
+  "tolerance_sweep_path": "md_rpp_rrv_ice_instances\\diagnostics\\08_Rochester_NY_tolerance_sweep.csv",
+  "passable_refreeze_window": true
+}

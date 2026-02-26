@@ -1,0 +1,29 @@
+{
+  "instance_id": 6,
+  "place": "Erie",
+  "state": "PA",
+  "center_lat": 42.1292,
+  "center_lon": -80.0851,
+  "dist_m": 5500,
+  "timezone": "America/New_York",
+  "start_date": "2025-11-25",
+  "end_date": "2025-11-30",
+  "event_context": "Great Lakes refreeze potential late Nov 2025",
+  "chosen_intersection_tolerance_m": 60,
+  "computed_nodes": 453,
+  "computed_edges": 2828,
+  "lcc_node_frac": 1.0,
+  "major_edge_frac": 0.3217821782178218,
+  "weather_interval": "hourly",
+  "planning_interval_min": 30,
+  "mission_window_local": {
+    "start_hour": 16,
+    "end_hour": 20
+  },
+  "graph_path": "md_rpp_rrv_ice_instances\\graphs\\06_Erie_PA.pickle",
+  "weather_path": "md_rpp_rrv_ice_instances\\weather\\06_Erie_PA_hourly.csv",
+  "node_to_sample_path": "md_rpp_rrv_ice_instances\\meta\\06_Erie_PA_node_to_sample.json",
+  "n_weather_samples": 5,
+  "tolerance_sweep_path": "md_rpp_rrv_ice_instances\\diagnostics\\06_Erie_PA_tolerance_sweep.csv",
+  "passable_refreeze_window": true
+}

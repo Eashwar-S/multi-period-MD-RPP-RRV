@@ -1,0 +1,29 @@
+{
+  "instance_id": 1,
+  "place": "Duluth",
+  "state": "MN",
+  "center_lat": 46.7867,
+  "center_lon": -92.1005,
+  "dist_m": 3000,
+  "timezone": "America/Chicago",
+  "start_date": "2026-01-23",
+  "end_date": "2026-01-26",
+  "event_context": "Upper Midwest cold/ice potential",
+  "chosen_intersection_tolerance_m": 60,
+  "computed_nodes": 165,
+  "computed_edges": 933,
+  "lcc_node_frac": 1.0,
+  "major_edge_frac": 0.48231511254019294,
+  "weather_interval": "hourly",
+  "planning_interval_min": 30,
+  "mission_window_local": {
+    "start_hour": 16,
+    "end_hour": 20
+  },
+  "graph_path": "md_rpp_rrv_ice_instances\\graphs\\01_Duluth_MN.pickle",
+  "weather_path": "md_rpp_rrv_ice_instances\\weather\\01_Duluth_MN_hourly.csv",
+  "node_to_sample_path": "md_rpp_rrv_ice_instances\\meta\\01_Duluth_MN_node_to_sample.json",
+  "n_weather_samples": 5,
+  "tolerance_sweep_path": "md_rpp_rrv_ice_instances\\diagnostics\\01_Duluth_MN_tolerance_sweep.csv",
+  "passable_refreeze_window": false
+}

@@ -1,0 +1,29 @@
+{
+  "instance_id": 3,
+  "place": "Bismarck",
+  "state": "ND",
+  "center_lat": 46.8083,
+  "center_lon": -100.7837,
+  "dist_m": 4000,
+  "timezone": "America/Chicago",
+  "start_date": "2026-01-23",
+  "end_date": "2026-01-26",
+  "event_context": "Northern Plains cold/ice potential",
+  "chosen_intersection_tolerance_m": 40,
+  "computed_nodes": 1183,
+  "computed_edges": 3927,
+  "lcc_node_frac": 1.0,
+  "major_edge_frac": 0.2645785586962058,
+  "weather_interval": "hourly",
+  "planning_interval_min": 30,
+  "mission_window_local": {
+    "start_hour": 16,
+    "end_hour": 20
+  },
+  "graph_path": "md_rpp_rrv_ice_instances\\graphs\\03_Bismarck_ND.pickle",
+  "weather_path": "md_rpp_rrv_ice_instances\\weather\\03_Bismarck_ND_hourly.csv",
+  "node_to_sample_path": "md_rpp_rrv_ice_instances\\meta\\03_Bismarck_ND_node_to_sample.json",
+  "n_weather_samples": 5,
+  "tolerance_sweep_path": "md_rpp_rrv_ice_instances\\diagnostics\\03_Bismarck_ND_tolerance_sweep.csv",
+  "passable_refreeze_window": true
+}

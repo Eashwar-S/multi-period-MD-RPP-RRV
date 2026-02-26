@@ -1,0 +1,29 @@
+{
+  "instance_id": 5,
+  "place": "Green Bay",
+  "state": "WI",
+  "center_lat": 44.5133,
+  "center_lon": -88.0133,
+  "dist_m": 5000,
+  "timezone": "America/Chicago",
+  "start_date": "2026-01-23",
+  "end_date": "2026-01-26",
+  "event_context": "Great Lakes snow/ice potential",
+  "chosen_intersection_tolerance_m": 80,
+  "computed_nodes": 293,
+  "computed_edges": 1549,
+  "lcc_node_frac": 1.0,
+  "major_edge_frac": 0.2569399612653325,
+  "weather_interval": "hourly",
+  "planning_interval_min": 30,
+  "mission_window_local": {
+    "start_hour": 16,
+    "end_hour": 20
+  },
+  "graph_path": "md_rpp_rrv_ice_instances\\graphs\\05_Green Bay_WI.pickle",
+  "weather_path": "md_rpp_rrv_ice_instances\\weather\\05_Green Bay_WI_hourly.csv",
+  "node_to_sample_path": "md_rpp_rrv_ice_instances\\meta\\05_Green Bay_WI_node_to_sample.json",
+  "n_weather_samples": 5,
+  "tolerance_sweep_path": "md_rpp_rrv_ice_instances\\diagnostics\\05_Green Bay_WI_tolerance_sweep.csv",
+  "passable_refreeze_window": true
+}

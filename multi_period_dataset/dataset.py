@@ -13,10 +13,6 @@ FREEZING_TEMP = 0  # °C
 PRECIPITATION_THRESHOLD = 0.1  # mm
 SNOWFALL_THRESHOLD = 0  # mm
 
-with open('../.env/GOOGLE_API_KEY.txt', 'r') as file:
-    GOOGLE_MAPS_API_KEY = file.read().strip()  # .strip() removes any extra whitespace or newline characters
-
-print(GOOGLE_MAPS_API_KEY)
 
 def download_and_save_graph(area_of_interest, north, east, south, west, threshold, filename):
     """
@@ -39,14 +35,15 @@ def download_and_save_graph(area_of_interest, north, east, south, west, threshol
     roads_filter = '["highway"~"motorway|truck|primary|secondary"]'
     # Downloading the map as a graph object
     G = ox.graph_from_bbox(bbox=tuple([west, south, east, north]), retain_all=False, custom_filter=roads_filter)
-    print(G.nodes(data=True))
-    
-    G = ox.elevation.add_node_elevations_google(G, api_key=GOOGLE_MAPS_API_KEY)
+    # print(G.nodes(data=True))
+
 
     G = ox.consolidate_intersections(ox.project_graph(G.copy()), tolerance=threshold, rebuild_graph=True, dead_ends=False)
 
+    # G = ox.elevation.add_node_elevations_google(G, api_key=GOOGLE_MAPS_API_KEY)
 
     G = ox.project_graph(G, to_crs="EPSG:4326")
+    print(G)
     # print(G.nodes(data=True))
     # Save the graph
     with open(filename, 'wb') as f:
@@ -68,7 +65,7 @@ def load_and_visualize_graph(filename):
     nodes_dict = {}
     check_list = []
     for id, n_data in G.nodes(data=True):
-        nodes_dict[id] = [n_data['y'], n_data['x'], [], n_data['elevation']]
+        nodes_dict[id] = [n_data['y'], n_data['x'], [], n_data['street_count']]
         for n1, n2, _ in G.edges(data=True):
             if id == n1:
                 nodes_dict[id][2].append((n2))
@@ -132,7 +129,7 @@ def extract_weather_data(nodes_dict, start_date, end_date, timezone="America/New
 
     all_data = []
 
-    for k, [lat, lon, edge_list, elevation] in nodes_dict.items():
+    for k, [lat, lon, edge_list, street_count] in nodes_dict.items():
         params["latitude"] = lat
         params["longitude"] = lon
 
@@ -156,7 +153,8 @@ def extract_weather_data(nodes_dict, start_date, end_date, timezone="America/New
 
         num_days = len(temperature_max)
         edge_list_repeated = [edge_list] * num_days
-        elevation_repeated = [elevation] * num_days
+        # elevation_repeated = [elevation] * num_days
+        street_count_repeated = [street_count] * num_days
 
         daily_data = {
             "node_id": k,
@@ -166,8 +164,9 @@ def extract_weather_data(nodes_dict, start_date, end_date, timezone="America/New
                 freq=pd.Timedelta(days=1),
                 inclusive="left"
             ),
+            "street_count": street_count_repeated,
             "edge_list": edge_list_repeated,
-            "elevation": elevation_repeated,
+            # "elevation": elevation_repeated,
             "latitude": lat,
             "longitude": lon,
             "temperature_max": temperature_max,
@@ -565,47 +564,47 @@ def create_daily_icy_road_multigraphs(
 # weather_data = extract_weather_data(nodes_dict, start_date, end_date)
 # weather_data.to_csv("erie_jan2025.csv", index=False)
 
-threshold = 200
-aoI = "Salt lake city, Utah, US"
-north, east, south, west = 40.7846, -111.7860, 40.6257, -112.0928
-graph_name = "graph_files/salt_lake.pickle"
-download_and_save_graph(aoI, north, east, south, west, threshold, graph_name)
-nodes_dict = load_and_visualize_graph(graph_name)
-print(len(nodes_dict))
+# threshold = 200
+# aoI = "Salt lake city, Utah, US"
+# north, east, south, west = 40.7846, -111.7860, 40.6257, -112.0928
+# graph_name = "graph_files/salt_lake.pickle"
+# download_and_save_graph(aoI, north, east, south, west, threshold, graph_name)
+# nodes_dict = load_and_visualize_graph(graph_name)
+# print(len(nodes_dict))
 
-start_date = "2025-01-01"
-end_date = "2025-01-16"
-weather_data = extract_weather_data(nodes_dict, start_date, end_date)
-weather_data.to_csv("graph_data/salt_lake_jan2025.csv", index=False)
+# start_date = "2025-01-01"
+# end_date = "2025-01-16"
+# weather_data = extract_weather_data(nodes_dict, start_date, end_date)
+# weather_data.to_csv("graph_data/salt_lake_jan2025.csv", index=False)
 
 # threshold = 200
 # aoI = "Spokane, Washington, US"
 # place = "washington"
 # north, east, south, west = 47.7587, -117.1328, 47.5900, -117.5029
-# graph_name = place + ".pickle"
-# download_and_save_graph(aoI, north, east, south, west, graph_name)
+# graph_name = "graph_files/" + place + ".pickle"
+# download_and_save_graph(aoI, north, east, south, west, threshold, graph_name)
 # nodes_dict = load_and_visualize_graph(graph_name)
 # print(len(nodes_dict))
 
 # start_date = "2025-01-01"
 # end_date = "2025-01-08"
 # weather_data = extract_weather_data(nodes_dict, start_date, end_date)
-# weather_data.to_csv(place + "_jan2025.csv", index=False)
+# weather_data.to_csv("graph_data/" + place + "_jan2025.csv", index=False)
 
 
-# threshold = 250
-# aoI = "Buffalo, New York, US"
-# place = "new_york"
-# north, east, south, west = 43.0669, -78.4644, 42.7873, -78.9800
-# graph_name = place + ".pickle"
-# download_and_save_graph(aoI, north, east, south, west, graph_name)
-# nodes_dict = load_and_visualize_graph(graph_name)
-# print(len(nodes_dict))
+threshold = 250
+aoI = "Buffalo, New York, US"
+place = "new_york"
+north, east, south, west = 43.0669, -78.4644, 42.7873, -78.9800
+graph_name = "graph_files/" + place + ".pickle"
+download_and_save_graph(aoI, north, east, south, west, threshold, graph_name)
+nodes_dict = load_and_visualize_graph(graph_name)
+print(len(nodes_dict))
 
-# start_date = "2025-01-01"
-# end_date = "2025-01-08"
-# weather_data = extract_weather_data(nodes_dict, start_date, end_date)
-# weather_data.to_csv(place + "_jan2025.csv", index=False)
+start_date = "2025-11-15"
+end_date = "2025-11-22"
+weather_data = extract_weather_data(nodes_dict, start_date, end_date)
+weather_data.to_csv("graph_data/" + place + "_nov2025.csv", index=False)
 
 
 # threshold = 250

@@ -1,0 +1,29 @@
+{
+  "instance_id": 14,
+  "place": "Albany",
+  "state": "NY",
+  "center_lat": 42.6526,
+  "center_lon": -73.7562,
+  "dist_m": 9500,
+  "timezone": "America/New_York",
+  "start_date": "2026-02-10",
+  "end_date": "2026-02-13",
+  "event_context": "Interior Northeast clipper snow/ice potential",
+  "chosen_intersection_tolerance_m": 100,
+  "computed_nodes": 600,
+  "computed_edges": 2587,
+  "lcc_node_frac": 1.0,
+  "major_edge_frac": 0.3560108233475068,
+  "weather_interval": "hourly",
+  "planning_interval_min": 30,
+  "mission_window_local": {
+    "start_hour": 16,
+    "end_hour": 20
+  },
+  "graph_path": "md_rpp_rrv_ice_instances\\graphs\\14_Albany_NY.pickle",
+  "weather_path": "md_rpp_rrv_ice_instances\\weather\\14_Albany_NY_hourly.csv",
+  "node_to_sample_path": "md_rpp_rrv_ice_instances\\meta\\14_Albany_NY_node_to_sample.json",
+  "n_weather_samples": 5,
+  "tolerance_sweep_path": "md_rpp_rrv_ice_instances\\diagnostics\\14_Albany_NY_tolerance_sweep.csv",
+  "passable_refreeze_window": true
+}

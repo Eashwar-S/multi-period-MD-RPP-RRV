@@ -1,0 +1,29 @@
+{
+  "instance_id": 17,
+  "place": "Salt Lake City",
+  "state": "UT",
+  "center_lat": 40.7608,
+  "center_lon": -111.891,
+  "dist_m": 12000,
+  "timezone": "America/Denver",
+  "start_date": "2026-01-23",
+  "end_date": "2026-01-27",
+  "event_context": "Intermountain West winter conditions",
+  "chosen_intersection_tolerance_m": 60,
+  "computed_nodes": 2540,
+  "computed_edges": 11083,
+  "lcc_node_frac": 1.0,
+  "major_edge_frac": 0.32283677704592617,
+  "weather_interval": "hourly",
+  "planning_interval_min": 30,
+  "mission_window_local": {
+    "start_hour": 16,
+    "end_hour": 20
+  },
+  "graph_path": "md_rpp_rrv_ice_instances\\graphs\\17_Salt Lake City_UT.pickle",
+  "weather_path": "md_rpp_rrv_ice_instances\\weather\\17_Salt Lake City_UT_hourly.csv",
+  "node_to_sample_path": "md_rpp_rrv_ice_instances\\meta\\17_Salt Lake City_UT_node_to_sample.json",
+  "n_weather_samples": 5,
+  "tolerance_sweep_path": "md_rpp_rrv_ice_instances\\diagnostics\\17_Salt Lake City_UT_tolerance_sweep.csv",
+  "passable_refreeze_window": true
+}

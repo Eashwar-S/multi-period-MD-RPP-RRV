@@ -1,0 +1,29 @@
+{
+  "instance_id": 4,
+  "place": "Marquette",
+  "state": "MI",
+  "center_lat": 46.5436,
+  "center_lon": -87.3954,
+  "dist_m": 4500,
+  "timezone": "America/Detroit",
+  "start_date": "2026-01-23",
+  "end_date": "2026-01-26",
+  "event_context": "Great Lakes lake-enhanced snow/ice potential",
+  "chosen_intersection_tolerance_m": 60,
+  "computed_nodes": 183,
+  "computed_edges": 955,
+  "lcc_node_frac": 1.0,
+  "major_edge_frac": 0.3392670157068063,
+  "weather_interval": "hourly",
+  "planning_interval_min": 30,
+  "mission_window_local": {
+    "start_hour": 16,
+    "end_hour": 20
+  },
+  "graph_path": "md_rpp_rrv_ice_instances\\graphs\\04_Marquette_MI.pickle",
+  "weather_path": "md_rpp_rrv_ice_instances\\weather\\04_Marquette_MI_hourly.csv",
+  "node_to_sample_path": "md_rpp_rrv_ice_instances\\meta\\04_Marquette_MI_node_to_sample.json",
+  "n_weather_samples": 5,
+  "tolerance_sweep_path": "md_rpp_rrv_ice_instances\\diagnostics\\04_Marquette_MI_tolerance_sweep.csv",
+  "passable_refreeze_window": false
+}

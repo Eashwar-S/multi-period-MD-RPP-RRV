@@ -1,0 +1,29 @@
+{
+  "instance_id": 19,
+  "place": "Anchorage",
+  "state": "AK",
+  "center_lat": 61.2181,
+  "center_lon": -149.9003,
+  "dist_m": 16000,
+  "timezone": "America/Anchorage",
+  "start_date": "2025-12-10",
+  "end_date": "2025-12-14",
+  "event_context": "Alaska cold season (Dec 2025)",
+  "chosen_intersection_tolerance_m": 100,
+  "computed_nodes": 465,
+  "computed_edges": 1918,
+  "lcc_node_frac": 1.0,
+  "major_edge_frac": 0.3524504692387904,
+  "weather_interval": "hourly",
+  "planning_interval_min": 30,
+  "mission_window_local": {
+    "start_hour": 16,
+    "end_hour": 20
+  },
+  "graph_path": "md_rpp_rrv_ice_instances\\graphs\\19_Anchorage_AK.pickle",
+  "weather_path": "md_rpp_rrv_ice_instances\\weather\\19_Anchorage_AK_hourly.csv",
+  "node_to_sample_path": "md_rpp_rrv_ice_instances\\meta\\19_Anchorage_AK_node_to_sample.json",
+  "n_weather_samples": 5,
+  "tolerance_sweep_path": "md_rpp_rrv_ice_instances\\diagnostics\\19_Anchorage_AK_tolerance_sweep.csv",
+  "passable_refreeze_window": true
+}

@@ -1,0 +1,29 @@
+{
+  "instance_id": 16,
+  "place": "South Bend",
+  "state": "IN",
+  "center_lat": 41.6764,
+  "center_lon": -86.252,
+  "dist_m": 11000,
+  "timezone": "America/Indiana/Indianapolis",
+  "start_date": "2025-11-09",
+  "end_date": "2025-11-12",
+  "event_context": "Lake-effect snow / refreeze potential early Nov 2025",
+  "chosen_intersection_tolerance_m": 60,
+  "computed_nodes": 2180,
+  "computed_edges": 9277,
+  "lcc_node_frac": 1.0,
+  "major_edge_frac": 0.34299881427185513,
+  "weather_interval": "hourly",
+  "planning_interval_min": 30,
+  "mission_window_local": {
+    "start_hour": 16,
+    "end_hour": 20
+  },
+  "graph_path": "md_rpp_rrv_ice_instances\\graphs\\16_South Bend_IN.pickle",
+  "weather_path": "md_rpp_rrv_ice_instances\\weather\\16_South Bend_IN_hourly.csv",
+  "node_to_sample_path": "md_rpp_rrv_ice_instances\\meta\\16_South Bend_IN_node_to_sample.json",
+  "n_weather_samples": 5,
+  "tolerance_sweep_path": "md_rpp_rrv_ice_instances\\diagnostics\\16_South Bend_IN_tolerance_sweep.csv",
+  "passable_refreeze_window": true
+}

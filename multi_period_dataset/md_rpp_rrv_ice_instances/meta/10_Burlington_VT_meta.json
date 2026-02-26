@@ -1,0 +1,29 @@
+{
+  "instance_id": 10,
+  "place": "Burlington",
+  "state": "VT",
+  "center_lat": 44.4759,
+  "center_lon": -73.2121,
+  "dist_m": 7500,
+  "timezone": "America/New_York",
+  "start_date": "2026-02-10",
+  "end_date": "2026-02-13",
+  "event_context": "New England clipper snow/ice potential",
+  "chosen_intersection_tolerance_m": 125,
+  "computed_nodes": 157,
+  "computed_edges": 641,
+  "lcc_node_frac": 1.0,
+  "major_edge_frac": 0.36817472698907955,
+  "weather_interval": "hourly",
+  "planning_interval_min": 30,
+  "mission_window_local": {
+    "start_hour": 16,
+    "end_hour": 20
+  },
+  "graph_path": "md_rpp_rrv_ice_instances\\graphs\\10_Burlington_VT.pickle",
+  "weather_path": "md_rpp_rrv_ice_instances\\weather\\10_Burlington_VT_hourly.csv",
+  "node_to_sample_path": "md_rpp_rrv_ice_instances\\meta\\10_Burlington_VT_node_to_sample.json",
+  "n_weather_samples": 5,
+  "tolerance_sweep_path": "md_rpp_rrv_ice_instances\\diagnostics\\10_Burlington_VT_tolerance_sweep.csv",
+  "passable_refreeze_window": false
+}
