@@ -1,0 +1,2 @@
+graph_id,num_nodes,num_edges,num_depots,T_interval,numVehicle,numFlights,prob,beta,obj,time_s,%_covered
+1,50,61,11,776.0,11,6,,,,2.955,

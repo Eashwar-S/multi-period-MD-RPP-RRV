@@ -417,12 +417,12 @@ def FastImprove(G, R, C, p_e, B, TR, T_interval, depots):
                 R[v_id][trip_idx] = final_t
 
 def main():
-    seed = 42
+    seed = 41
     np.random.seed(seed)
     random.seed(seed)
     
     while True:
-        G = nx.gnm_random_graph(15, 40, seed=seed)
+        G = nx.gnm_random_graph(15, 25, seed=seed)
         # G = nx.gnm_random_graph(100, 200, seed=seed)
         if nx.is_connected(G):
             break
@@ -586,15 +586,16 @@ def main():
                 p_e[e_can] = min(1.0, p_e[e_can] + 0.3)
                 
         plt.figure(figsize=(10, 8))
-        nx.draw_networkx_nodes(G, pos, node_color='lightgray', node_size=500)
-        nx.draw_networkx_nodes(G, pos, nodelist=depots, node_color='cyan', node_size=700, node_shape='s')
+        nx.draw_networkx_nodes(G, pos, node_color='lightgray', node_size=500, label='Nodes')
+        nx.draw_networkx_nodes(G, pos, nodelist=depots, node_color='green', node_size=500, label='Depots')
         nx.draw_networkx_labels(G, pos)
         
         covered_edges = list(unique_cov)
         uncovered_edges = [e for e in G.edges() if tuple(sorted(e)) not in unique_cov]
         
-        nx.draw_networkx_edges(G, pos, edgelist=uncovered_edges, edge_color='gray', style='dashed')
-        nx.draw_networkx_edges(G, pos, edgelist=covered_edges, edge_color='red', width=2)
+        nx.draw_networkx_edges(G, pos, edgelist=[e for e in G.edges()], edge_color='gray')
+        # nx.draw_networkx_edges(G, pos, edgelist=uncovered_edges, edge_color='gray', style='dashed')
+        # nx.draw_networkx_edges(G, pos, edgelist=covered_edges, edge_color='red', width=2)
         
         edge_labels = {}
         for u, v, d in G.edges(data=True):
@@ -602,7 +603,8 @@ def main():
             edge_labels[(u, v)] = f"w={d['weight']}\np={p_e[e_can]:.2f}"
             
         nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=8)
-        plt.title(f"Interval {n+1} - Signature: {sig}")
+        plt.legend()
+        # plt.title(f"Interval {n+1} - Signature: {sig}")
         plt.savefig(f"interval_{n+1}.png")
         plt.close()
 

@@ -1,0 +1,38 @@
+         1861596 function calls (1859186 primitive calls) in 0.691 seconds
+
+   Ordered by: internal time
+   List reduced from 56 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       12    0.504    0.042    0.689    0.057 C:\Users\eashw\Desktop\PhD_resesarch\multi-period-MD-RPP-RRV\multi_period_routing\magnetic_sa_mdrpp_rrv.py:187(run_trip)
+  1290519    0.090    0.000    0.090    0.000 {method 'get' of 'dict' objects}
+   412215    0.027    0.000    0.027    0.000 {method 'add' of 'set' objects}
+     3782    0.020    0.000    0.024    0.000 C:\Users\eashw\Desktop\PhD_resesarch\multi-period-MD-RPP-RRV\multi_period_routing\magnetic_sa_mdrpp_rrv.py:136(_dist_to_frontier)
+    19885    0.012    0.000    0.016    0.000 C:\Users\eashw\Desktop\PhD_resesarch\multi-period-MD-RPP-RRV\multi_period_routing\magnetic_sa_mdrpp_rrv.py:123(_nearest_depot_dist)
+    19757    0.008    0.000    0.010    0.000 C:\Users\eashw\AppData\Local\Programs\Python\Python39\lib\site-packages\networkx\classes\coreviews.py:80(__getitem__)
+    19757    0.007    0.000    0.017    0.000 C:\Users\eashw\AppData\Local\Programs\Python\Python39\lib\site-packages\networkx\classes\graph.py:489(__getitem__)
+    19757    0.003    0.000    0.003    0.000 C:\Users\eashw\AppData\Local\Programs\Python\Python39\lib\site-packages\networkx\classes\coreviews.py:52(__getitem__)
+4244/2122    0.003    0.000    0.008    0.000 C:\Users\eashw\AppData\Local\Programs\Python\Python39\lib\site-packages\networkx\utils\backends.py:409(__call__)
+    19757    0.003    0.000    0.003    0.000 C:\Users\eashw\AppData\Local\Programs\Python\Python39\lib\site-packages\networkx\classes\coreviews.py:43(__init__)
+     2122    0.003    0.000    0.004    0.000 C:\Users\eashw\AppData\Local\Programs\Python\Python39\lib\site-packages\networkx\algorithms\shortest_paths\weighted.py:2286(bidirectional_dijkstra)
+    19885    0.002    0.000    0.002    0.000 {built-in method builtins.hasattr}
+     2122    0.002    0.000    0.007    0.000 C:\Users\eashw\AppData\Local\Programs\Python\Python39\lib\site-packages\networkx\algorithms\shortest_paths\generic.py:43(shortest_path)
+     2614    0.001    0.000    0.002    0.000 C:\Users\eashw\Desktop\PhD_resesarch\multi-period-MD-RPP-RRV\multi_period_routing\magnetic_sa_mdrpp_rrv.py:61(can)
+     3738    0.001    0.000    0.001    0.000 C:\Users\eashw\Desktop\PhD_resesarch\multi-period-MD-RPP-RRV\multi_period_routing\magnetic_sa_mdrpp_rrv.py:172(<genexpr>)
+     3160    0.001    0.000    0.002    0.000 {built-in method builtins.min}
+     2176    0.001    0.000    0.001    0.000 C:\Users\eashw\AppData\Local\Programs\Python\Python39\lib\site-packages\networkx\classes\graph.py:1315(neighbors)
+     4244    0.001    0.000    0.001    0.000 C:\Users\eashw\AppData\Local\Programs\Python\Python39\lib\site-packages\networkx\classes\graph.py:453(__contains__)
+     3365    0.001    0.000    0.001    0.000 {built-in method builtins.max}
+      246    0.001    0.000    0.004    0.000 C:\Users\eashw\Desktop\PhD_resesarch\multi-period-MD-RPP-RRV\multi_period_routing\magnetic_sa_mdrpp_rrv.py:151(_score)
+       73    0.001    0.000    0.002    0.000 {built-in method builtins.sum}
+      864    0.000    0.000    0.001    0.000 C:\Users\eashw\Desktop\PhD_resesarch\multi-period-MD-RPP-RRV\multi_period_routing\magnetic_sa_mdrpp_rrv.py:116(<genexpr>)
+     2188    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+       12    0.000    0.000    0.001    0.000 C:\Users\eashw\Desktop\PhD_resesarch\multi-period-MD-RPP-RRV\multi_period_routing\magnetic_sa_mdrpp_rrv.py:116(<dictcomp>)
+        1    0.000    0.000    0.691    0.691 C:\Users\eashw\Desktop\PhD_resesarch\multi-period-MD-RPP-RRV\multi_period_routing\magnetic_sa_mdrpp_rrv.py:320(plan_vehicle_trips)
+     1040    0.000    0.000    0.000    0.000 C:\Users\eashw\Desktop\PhD_resesarch\multi-period-MD-RPP-RRV\multi_period_routing\magnetic_sa_mdrpp_rrv.py:114(<lambda>)
+       12    0.000    0.000    0.000    0.000 C:\Users\eashw\Desktop\PhD_resesarch\multi-period-MD-RPP-RRV\multi_period_routing\magnetic_sa_mdrpp_rrv.py:113(<listcomp>)
+       12    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+      724    0.000    0.000    0.000    0.000 C:\Users\eashw\AppData\Local\Programs\Python\Python39\lib\site-packages\networkx\algorithms\shortest_paths\weighted.py:78(<lambda>)
+      300    0.000    0.000    0.000    0.000 C:\Users\eashw\AppData\Local\Programs\Python\Python39\lib\site-packages\networkx\classes\reportviews.py:1255(<genexpr>)
+
+

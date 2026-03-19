@@ -1,0 +1,91 @@
+project:
+  name: "temporal_icy_roads"
+  seed: 42
+
+paths:
+  raw_data_dir: "graph_data"
+  processed_data_dir: "data"
+  outputs_dir: "outputs"
+  metrics_dir: "outputs/metrics"
+  predictions_dir: "outputs/predictions"
+  plots_dir: "outputs/plots"
+  logs_dir: "outputs/logs"
+  configs_dir: "outputs/configs"
+  models_dir: "outputs/models"
+
+data:
+  # The schema assumes nodes are the primary entities in the CSV.
+  entity_col: "node_id"
+  date_col: "date"
+  target_col: "icy_label"
+  base_target_col: "icy_base"
+  edge_list_col: "edge_list"
+  
+  # Temporal parameters
+  lag_days: 3
+  rolling_window: 3
+
+  # Basic weather columns
+  weather_cols:
+    - "temperature_max"
+    - "temperature_min"
+    - "temperature_mean"
+    - "dewpoint_mean"
+    - "dewpoint_max"
+    - "dewpoint_min"
+    - "humidity_mean"
+    - "precipitation_sum"
+    - "rain_sum"
+    - "snowfall_sum"
+    - "wind_speed_10m_max"
+    - "shortwave_radiation_sum"
+    - "cloud_cover_mean"
+  
+  # Structural columns
+  static_cols:
+    - "street_count"
+    - "latitude"
+    - "longitude"
+    - "delta_local"
+
+split:
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+
+training:
+  batch_size: 4
+  learning_rate: 0.0005
+  epochs: 500
+  patience: 40  # Increased patience for small temporal graphs
+  
+gnn:
+  hidden_dim: 64
+  dropout: 0.3
+  temporal_model: "gru" # "gru" or "lstm"
+  # These are the base (current-day) features per time step for TemporalEdgeGNN
+  # Must match the base weather+structural cols BEFORE any lags are appended
+  temporal_base_features:
+    - "street_count"
+    - "latitude"
+    - "longitude"
+    - "delta_local"
+    - "temperature_max"
+    - "temperature_min"
+    - "temperature_mean"
+    - "dewpoint_mean"
+    - "dewpoint_max"
+    - "dewpoint_min"
+    - "humidity_mean"
+    - "precipitation_sum"
+    - "rain_sum"
+    - "snowfall_sum"
+    - "wind_speed_10m_max"
+    - "shortwave_radiation_sum"
+    - "cloud_cover_mean"
+    - "icy_base"
+    - "severity"
+    - "pavement_temp"
+    - "ice_thickness"
+    - "icy_label_lag1"  # Previous-day prediction as explicit input feature
+  seq_len: 2  # current day + 3 lag days

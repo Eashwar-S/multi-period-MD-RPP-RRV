@@ -1,0 +1,2772 @@
+area_id,node_id,date,split,icy_label
+"College Park, Maryland, US",3,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",4,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",7,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",8,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",9,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",10,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",11,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",12,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",14,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",15,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",18,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",19,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",20,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",21,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",25,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",26,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",27,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",28,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",29,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",31,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",34,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",35,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",39,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",41,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",42,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",46,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",47,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",48,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",49,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",52,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",53,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",54,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",55,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",57,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",58,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",59,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",60,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",62,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",67,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",68,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",69,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",73,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",75,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",76,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",77,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",78,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",84,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",85,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",90,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",94,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",96,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",98,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",99,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",102,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",103,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",104,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",110,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",111,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",112,2026-01-22 04:00:00+00:00,val,0
+"College Park, Maryland, US",113,2026-01-22 04:00:00+00:00,val,0
+"Arlington, Texaas, US",3,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",3,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",4,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",4,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",7,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",7,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",8,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",8,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",9,2026-01-23 04:00:00+00:00,test,0
+"College Park, Maryland, US",9,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",10,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",10,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",11,2026-01-23 04:00:00+00:00,test,0
+"College Park, Maryland, US",11,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",12,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",12,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",14,2026-01-23 04:00:00+00:00,test,0
+"College Park, Maryland, US",14,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",15,2026-01-23 04:00:00+00:00,test,0
+"College Park, Maryland, US",15,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",18,2026-01-23 04:00:00+00:00,test,0
+"College Park, Maryland, US",18,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",19,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",19,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",20,2026-01-23 04:00:00+00:00,test,0
+"College Park, Maryland, US",20,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",21,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",21,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",25,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",25,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",26,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",26,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",27,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",27,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",28,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",28,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",29,2026-01-23 04:00:00+00:00,test,0
+"College Park, Maryland, US",29,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",31,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",31,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",34,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",34,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",35,2026-01-23 04:00:00+00:00,test,0
+"College Park, Maryland, US",35,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",39,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",39,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",41,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",41,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",42,2026-01-23 04:00:00+00:00,test,0
+"College Park, Maryland, US",42,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",46,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",46,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",47,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",47,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",48,2026-01-23 04:00:00+00:00,test,0
+"College Park, Maryland, US",48,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",49,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",49,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",52,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",52,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",53,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",53,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",54,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",54,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",55,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",55,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",57,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",57,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",58,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",58,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",59,2026-01-23 04:00:00+00:00,test,0
+"College Park, Maryland, US",59,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",60,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",60,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",62,2026-01-23 04:00:00+00:00,test,0
+"College Park, Maryland, US",62,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",67,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",67,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",68,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",68,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",69,2026-01-23 04:00:00+00:00,test,0
+"College Park, Maryland, US",69,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",73,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",73,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",75,2026-01-23 04:00:00+00:00,test,0
+"College Park, Maryland, US",75,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",76,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",76,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",77,2026-01-23 04:00:00+00:00,test,0
+"College Park, Maryland, US",77,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",78,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",78,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",84,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",84,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",85,2026-01-23 04:00:00+00:00,test,0
+"College Park, Maryland, US",85,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",90,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",90,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",94,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",94,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",96,2026-01-23 04:00:00+00:00,test,0
+"College Park, Maryland, US",96,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",98,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",98,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",99,2026-01-23 04:00:00+00:00,test,0
+"College Park, Maryland, US",99,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",102,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",102,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",103,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",103,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",104,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",104,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",110,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",110,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",111,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",111,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",112,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",112,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",113,2026-01-23 04:00:00+00:00,test,1
+"College Park, Maryland, US",113,2026-01-23 04:00:00+00:00,test,0
+"Arlington, Texaas, US",0,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",1,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",3,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",3,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",4,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",4,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",5,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",6,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",7,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",7,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",8,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",8,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",9,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",9,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",10,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",10,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",11,2026-01-24 04:00:00+00:00,test,0
+"College Park, Maryland, US",11,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",12,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",12,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",13,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",14,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",14,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",15,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",15,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",16,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",17,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",18,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",18,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",19,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",19,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",20,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",20,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",21,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",21,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",22,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",23,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",24,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",25,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",25,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",26,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",26,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",27,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",27,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",28,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",28,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",29,2026-01-24 04:00:00+00:00,test,0
+"College Park, Maryland, US",29,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",30,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",31,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",31,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",34,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",34,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",35,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",35,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",37,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",38,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",39,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",39,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",41,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",41,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",42,2026-01-24 04:00:00+00:00,test,0
+"College Park, Maryland, US",42,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",43,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",44,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",45,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",46,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",46,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",47,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",47,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",48,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",48,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",49,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",49,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",50,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",51,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",52,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",52,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",53,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",53,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",54,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",54,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",55,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",55,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",56,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",57,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",57,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",58,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",58,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",59,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",59,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",60,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",60,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",61,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",62,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",62,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",65,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",66,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",67,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",67,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",68,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",68,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",69,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",69,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",70,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",73,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",73,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",75,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",75,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",76,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",76,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",77,2026-01-24 04:00:00+00:00,test,0
+"College Park, Maryland, US",77,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",78,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",78,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",79,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",80,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",81,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",82,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",83,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",84,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",84,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",85,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",85,2026-01-24 04:00:00+00:00,test,0
+"College Park, Maryland, US",88,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",90,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",90,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",91,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",92,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",94,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",94,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",95,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",96,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",96,2026-01-24 04:00:00+00:00,test,0
+"College Park, Maryland, US",97,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",98,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",98,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",99,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",99,2026-01-24 04:00:00+00:00,test,0
+"College Park, Maryland, US",100,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",101,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",102,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",102,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",103,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",103,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",104,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",104,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",105,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",106,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",107,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",108,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",110,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",110,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",111,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",111,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",112,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",112,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",113,2026-01-24 04:00:00+00:00,test,1
+"College Park, Maryland, US",113,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",117,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",119,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",120,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",122,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",124,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",125,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",127,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",128,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",129,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",133,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",135,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",136,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",137,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",139,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",140,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",142,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",143,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",145,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",146,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",147,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",151,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",155,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",156,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",158,2026-01-24 04:00:00+00:00,test,0
+"Arlington, Texaas, US",160,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",162,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",163,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",164,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",165,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",167,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",168,2026-01-24 04:00:00+00:00,test,1
+"Arlington, Texaas, US",0,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",1,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",3,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",3,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",4,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",4,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",5,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",6,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",7,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",7,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",8,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",8,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",9,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",9,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",10,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",10,2026-01-25 04:00:00+00:00,test,0
+"Arlington, Texaas, US",11,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",11,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",12,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",12,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",13,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",14,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",14,2026-01-25 04:00:00+00:00,test,0
+"Arlington, Texaas, US",15,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",15,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",16,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",17,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",18,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",18,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",19,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",19,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",20,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",20,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",21,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",21,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",22,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",23,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",24,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",25,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",25,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",26,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",26,2026-01-25 04:00:00+00:00,test,0
+"Arlington, Texaas, US",27,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",27,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",28,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",28,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",29,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",29,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",30,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",31,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",31,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",34,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",34,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",35,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",35,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",37,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",38,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",39,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",39,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",41,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",41,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",42,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",42,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",43,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",44,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",45,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",46,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",46,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",47,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",47,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",48,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",48,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",49,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",49,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",50,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",51,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",52,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",52,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",53,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",53,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",54,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",54,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",55,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",55,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",56,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",57,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",57,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",58,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",58,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",59,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",59,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",60,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",60,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",61,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",62,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",62,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",65,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",66,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",67,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",67,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",68,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",68,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",69,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",69,2026-01-25 04:00:00+00:00,test,0
+"Arlington, Texaas, US",70,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",73,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",73,2026-01-25 04:00:00+00:00,test,0
+"Arlington, Texaas, US",75,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",75,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",76,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",76,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",77,2026-01-25 04:00:00+00:00,test,0
+"College Park, Maryland, US",77,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",78,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",78,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",79,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",80,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",81,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",82,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",83,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",84,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",84,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",85,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",85,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",88,2026-01-25 04:00:00+00:00,test,0
+"Arlington, Texaas, US",90,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",90,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",91,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",92,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",94,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",94,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",95,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",96,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",96,2026-01-25 04:00:00+00:00,test,0
+"College Park, Maryland, US",97,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",98,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",98,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",99,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",99,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",100,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",101,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",102,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",102,2026-01-25 04:00:00+00:00,test,0
+"Arlington, Texaas, US",103,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",103,2026-01-25 04:00:00+00:00,test,0
+"Arlington, Texaas, US",104,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",104,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",105,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",106,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",107,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",108,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",110,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",110,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",111,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",111,2026-01-25 04:00:00+00:00,test,0
+"Arlington, Texaas, US",112,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",112,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",113,2026-01-25 04:00:00+00:00,test,1
+"College Park, Maryland, US",113,2026-01-25 04:00:00+00:00,test,0
+"Arlington, Texaas, US",117,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",119,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",120,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",122,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",124,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",125,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",127,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",128,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",129,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",133,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",135,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",136,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",137,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",139,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",140,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",142,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",143,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",145,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",146,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",147,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",151,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",155,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",156,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",158,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",160,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",162,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",163,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",164,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",165,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",167,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",168,2026-01-25 04:00:00+00:00,test,1
+"Arlington, Texaas, US",0,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",1,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",3,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",3,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",4,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",4,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",5,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",6,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",7,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",7,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",8,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",8,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",9,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",9,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",10,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",10,2026-01-26 04:00:00+00:00,train,0
+"Arlington, Texaas, US",11,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",11,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",12,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",12,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",13,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",14,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",14,2026-01-26 04:00:00+00:00,train,0
+"Arlington, Texaas, US",15,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",15,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",16,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",17,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",18,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",18,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",19,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",19,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",20,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",20,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",21,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",21,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",22,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",23,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",24,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",25,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",25,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",26,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",26,2026-01-26 04:00:00+00:00,train,0
+"Arlington, Texaas, US",27,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",27,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",28,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",28,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",29,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",29,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",30,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",31,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",31,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",34,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",34,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",35,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",35,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",37,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",38,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",39,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",39,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",41,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",41,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",42,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",42,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",43,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",44,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",45,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",46,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",46,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",47,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",47,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",48,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",48,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",49,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",49,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",50,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",51,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",52,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",52,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",53,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",53,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",54,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",54,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",55,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",55,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",56,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",57,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",57,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",58,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",58,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",59,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",59,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",60,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",60,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",61,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",62,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",62,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",65,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",66,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",67,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",67,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",68,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",68,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",69,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",69,2026-01-26 04:00:00+00:00,train,0
+"Arlington, Texaas, US",70,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",73,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",73,2026-01-26 04:00:00+00:00,train,0
+"Arlington, Texaas, US",75,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",75,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",76,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",76,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",77,2026-01-26 04:00:00+00:00,train,0
+"College Park, Maryland, US",77,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",78,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",78,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",79,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",80,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",81,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",82,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",83,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",84,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",84,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",85,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",85,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",88,2026-01-26 04:00:00+00:00,train,0
+"Arlington, Texaas, US",90,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",90,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",91,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",92,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",94,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",94,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",95,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",96,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",96,2026-01-26 04:00:00+00:00,train,0
+"College Park, Maryland, US",97,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",98,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",98,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",99,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",99,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",100,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",101,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",102,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",102,2026-01-26 04:00:00+00:00,train,0
+"Arlington, Texaas, US",103,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",103,2026-01-26 04:00:00+00:00,train,0
+"Arlington, Texaas, US",104,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",104,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",105,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",106,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",107,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",108,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",110,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",110,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",111,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",111,2026-01-26 04:00:00+00:00,train,0
+"Arlington, Texaas, US",112,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",112,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",113,2026-01-26 04:00:00+00:00,train,1
+"College Park, Maryland, US",113,2026-01-26 04:00:00+00:00,train,0
+"Arlington, Texaas, US",117,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",119,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",120,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",122,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",124,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",125,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",127,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",128,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",129,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",133,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",135,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",136,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",137,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",139,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",140,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",142,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",143,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",145,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",146,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",147,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",151,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",155,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",156,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",158,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",160,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",162,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",163,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",164,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",165,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",167,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",168,2026-01-26 04:00:00+00:00,train,1
+"Arlington, Texaas, US",0,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",1,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",3,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",3,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",4,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",4,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",5,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",6,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",7,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",7,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",8,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",8,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",9,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",9,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",10,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",10,2026-01-27 04:00:00+00:00,train,0
+"Arlington, Texaas, US",11,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",11,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",12,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",12,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",13,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",14,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",14,2026-01-27 04:00:00+00:00,train,0
+"Arlington, Texaas, US",15,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",15,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",16,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",17,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",18,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",18,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",19,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",19,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",20,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",20,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",21,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",21,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",22,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",23,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",24,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",25,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",25,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",26,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",26,2026-01-27 04:00:00+00:00,train,0
+"Arlington, Texaas, US",27,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",27,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",28,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",28,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",29,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",29,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",30,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",31,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",31,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",34,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",34,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",35,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",35,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",37,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",38,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",39,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",39,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",41,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",41,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",42,2026-01-27 04:00:00+00:00,train,0
+"College Park, Maryland, US",42,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",43,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",44,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",45,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",46,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",46,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",47,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",47,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",48,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",48,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",49,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",49,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",50,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",51,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",52,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",52,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",53,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",53,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",54,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",54,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",55,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",55,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",56,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",57,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",57,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",58,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",58,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",59,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",59,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",60,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",60,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",61,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",62,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",62,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",65,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",66,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",67,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",67,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",68,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",68,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",69,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",69,2026-01-27 04:00:00+00:00,train,0
+"Arlington, Texaas, US",70,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",73,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",73,2026-01-27 04:00:00+00:00,train,0
+"Arlington, Texaas, US",75,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",75,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",76,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",76,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",77,2026-01-27 04:00:00+00:00,train,0
+"College Park, Maryland, US",77,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",78,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",78,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",79,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",80,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",81,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",82,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",83,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",84,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",84,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",85,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",85,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",88,2026-01-27 04:00:00+00:00,train,0
+"Arlington, Texaas, US",90,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",90,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",91,2026-01-27 04:00:00+00:00,train,0
+"Arlington, Texaas, US",92,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",94,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",94,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",95,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",96,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",96,2026-01-27 04:00:00+00:00,train,0
+"College Park, Maryland, US",97,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",98,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",98,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",99,2026-01-27 04:00:00+00:00,train,0
+"College Park, Maryland, US",99,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",100,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",101,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",102,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",102,2026-01-27 04:00:00+00:00,train,0
+"Arlington, Texaas, US",103,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",103,2026-01-27 04:00:00+00:00,train,0
+"Arlington, Texaas, US",104,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",104,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",105,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",106,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",107,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",108,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",110,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",110,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",111,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",111,2026-01-27 04:00:00+00:00,train,0
+"Arlington, Texaas, US",112,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",112,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",113,2026-01-27 04:00:00+00:00,train,1
+"College Park, Maryland, US",113,2026-01-27 04:00:00+00:00,train,0
+"Arlington, Texaas, US",117,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",119,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",120,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",122,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",124,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",125,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",127,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",128,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",129,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",133,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",135,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",136,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",137,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",139,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",140,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",142,2026-01-27 04:00:00+00:00,train,0
+"Arlington, Texaas, US",143,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",145,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",146,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",147,2026-01-27 04:00:00+00:00,train,0
+"Arlington, Texaas, US",151,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",155,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",156,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",158,2026-01-27 04:00:00+00:00,train,0
+"Arlington, Texaas, US",160,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",162,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",163,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",164,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",165,2026-01-27 04:00:00+00:00,train,0
+"Arlington, Texaas, US",167,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",168,2026-01-27 04:00:00+00:00,train,1
+"Arlington, Texaas, US",0,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",1,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",3,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",3,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",4,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",4,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",5,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",6,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",7,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",7,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",8,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",8,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",9,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",9,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",10,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",10,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",11,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",11,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",12,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",12,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",13,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",14,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",14,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",15,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",15,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",16,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",17,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",18,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",18,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",19,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",19,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",20,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",20,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",21,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",21,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",22,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",23,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",24,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",25,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",25,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",26,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",26,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",27,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",27,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",28,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",28,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",29,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",29,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",30,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",31,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",31,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",34,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",34,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",35,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",35,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",37,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",38,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",39,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",39,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",41,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",41,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",42,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",42,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",43,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",44,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",45,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",46,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",46,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",47,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",47,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",48,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",48,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",49,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",49,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",50,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",51,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",52,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",52,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",53,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",53,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",54,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",54,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",55,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",55,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",56,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",57,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",57,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",58,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",58,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",59,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",59,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",60,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",60,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",61,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",62,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",62,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",65,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",66,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",67,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",67,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",68,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",68,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",69,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",69,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",70,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",73,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",73,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",75,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",75,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",76,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",76,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",77,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",77,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",78,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",78,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",79,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",80,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",81,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",82,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",83,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",84,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",84,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",85,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",85,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",88,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",90,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",90,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",91,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",92,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",94,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",94,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",95,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",96,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",96,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",97,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",98,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",98,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",99,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",99,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",100,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",101,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",102,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",102,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",103,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",103,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",104,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",104,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",105,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",106,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",107,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",108,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",110,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",110,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",111,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",111,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",112,2026-01-28 04:00:00+00:00,train,1
+"College Park, Maryland, US",112,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",113,2026-01-28 04:00:00+00:00,train,0
+"College Park, Maryland, US",113,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",117,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",119,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",120,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",122,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",124,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",125,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",127,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",128,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",129,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",133,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",135,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",136,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",137,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",139,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",140,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",142,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",143,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",145,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",146,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",147,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",151,2026-01-28 04:00:00+00:00,train,1
+"Arlington, Texaas, US",155,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",156,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",158,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",160,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",162,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",163,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",164,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",165,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",167,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",168,2026-01-28 04:00:00+00:00,train,0
+"Arlington, Texaas, US",0,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",1,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",3,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",3,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",4,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",4,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",5,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",6,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",7,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",7,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",8,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",8,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",9,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",9,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",10,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",10,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",11,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",11,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",12,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",12,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",13,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",14,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",14,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",15,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",15,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",16,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",17,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",18,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",18,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",19,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",19,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",20,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",20,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",21,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",21,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",22,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",23,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",24,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",25,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",25,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",26,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",26,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",27,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",27,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",28,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",28,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",29,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",29,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",30,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",31,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",31,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",34,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",34,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",35,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",35,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",37,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",38,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",39,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",39,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",41,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",41,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",42,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",42,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",43,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",44,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",45,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",46,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",46,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",47,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",47,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",48,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",48,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",49,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",49,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",50,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",51,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",52,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",52,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",53,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",53,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",54,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",54,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",55,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",55,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",56,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",57,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",57,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",58,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",58,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",59,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",59,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",60,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",60,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",61,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",62,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",62,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",65,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",66,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",67,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",67,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",68,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",68,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",69,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",69,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",70,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",73,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",73,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",75,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",75,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",76,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",76,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",77,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",77,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",78,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",78,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",79,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",80,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",81,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",82,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",83,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",84,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",84,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",85,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",85,2026-01-29 04:00:00+00:00,train,1
+"College Park, Maryland, US",88,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",90,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",90,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",91,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",92,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",94,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",94,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",95,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",96,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",96,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",97,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",98,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",98,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",99,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",99,2026-01-29 04:00:00+00:00,train,1
+"College Park, Maryland, US",100,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",101,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",102,2026-01-29 04:00:00+00:00,train,1
+"College Park, Maryland, US",102,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",103,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",103,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",104,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",104,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",105,2026-01-29 04:00:00+00:00,train,1
+"College Park, Maryland, US",106,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",107,2026-01-29 04:00:00+00:00,train,1
+"College Park, Maryland, US",108,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",110,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",110,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",111,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",111,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",112,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",112,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",113,2026-01-29 04:00:00+00:00,train,0
+"College Park, Maryland, US",113,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",117,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",119,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",120,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",122,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",124,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",125,2026-01-29 04:00:00+00:00,train,1
+"Arlington, Texaas, US",127,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",128,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",129,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",133,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",135,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",136,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",137,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",139,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",140,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",142,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",143,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",145,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",146,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",147,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",151,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",155,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",156,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",158,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",160,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",162,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",163,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",164,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",165,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",167,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",168,2026-01-29 04:00:00+00:00,train,0
+"Arlington, Texaas, US",0,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",1,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",3,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",3,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",4,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",4,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",5,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",6,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",7,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",7,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",8,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",8,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",9,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",9,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",10,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",10,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",11,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",11,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",12,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",12,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",13,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",14,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",14,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",15,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",15,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",16,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",17,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",18,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",18,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",19,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",19,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",20,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",20,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",21,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",21,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",22,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",23,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",24,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",25,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",25,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",26,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",26,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",27,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",27,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",28,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",28,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",29,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",29,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",30,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",31,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",31,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",34,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",34,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",35,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",35,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",37,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",38,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",39,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",39,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",41,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",41,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",42,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",42,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",43,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",44,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",45,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",46,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",46,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",47,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",47,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",48,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",48,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",49,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",49,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",50,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",51,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",52,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",52,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",53,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",53,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",54,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",54,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",55,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",55,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",56,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",57,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",57,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",58,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",58,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",59,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",59,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",60,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",60,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",61,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",62,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",62,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",65,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",66,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",67,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",67,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",68,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",68,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",69,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",69,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",70,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",73,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",73,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",75,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",75,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",76,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",76,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",77,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",77,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",78,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",78,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",79,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",80,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",81,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",82,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",83,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",84,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",84,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",85,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",85,2026-01-30 04:00:00+00:00,train,1
+"College Park, Maryland, US",88,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",90,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",90,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",91,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",92,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",94,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",94,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",95,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",96,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",96,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",97,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",98,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",98,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",99,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",99,2026-01-30 04:00:00+00:00,train,1
+"College Park, Maryland, US",100,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",101,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",102,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",102,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",103,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",103,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",104,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",104,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",105,2026-01-30 04:00:00+00:00,train,1
+"College Park, Maryland, US",106,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",107,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",108,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",110,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",110,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",111,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",111,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",112,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",112,2026-01-30 04:00:00+00:00,train,1
+"Arlington, Texaas, US",113,2026-01-30 04:00:00+00:00,train,0
+"College Park, Maryland, US",113,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",117,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",119,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",120,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",122,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",124,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",125,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",127,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",128,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",129,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",133,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",135,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",136,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",137,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",139,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",140,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",142,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",143,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",145,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",146,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",147,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",151,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",155,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",156,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",158,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",160,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",162,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",163,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",164,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",165,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",167,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",168,2026-01-30 04:00:00+00:00,train,0
+"Arlington, Texaas, US",0,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",1,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",3,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",3,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",4,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",4,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",5,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",6,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",7,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",7,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",8,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",8,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",9,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",9,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",10,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",10,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",11,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",11,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",12,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",12,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",13,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",14,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",14,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",15,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",15,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",16,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",17,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",18,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",18,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",19,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",19,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",20,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",20,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",21,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",21,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",22,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",23,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",24,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",25,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",25,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",26,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",26,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",27,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",27,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",28,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",28,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",29,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",29,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",30,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",31,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",31,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",34,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",34,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",35,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",35,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",37,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",38,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",39,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",39,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",41,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",41,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",42,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",42,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",43,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",44,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",45,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",46,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",46,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",47,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",47,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",48,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",48,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",49,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",49,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",50,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",51,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",52,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",52,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",53,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",53,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",54,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",54,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",55,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",55,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",56,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",57,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",57,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",58,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",58,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",59,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",59,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",60,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",60,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",61,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",62,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",62,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",65,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",66,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",67,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",67,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",68,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",68,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",69,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",69,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",70,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",73,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",73,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",75,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",75,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",76,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",76,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",77,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",77,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",78,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",78,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",79,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",80,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",81,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",82,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",83,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",84,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",84,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",85,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",85,2026-01-31 04:00:00+00:00,train,1
+"College Park, Maryland, US",88,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",90,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",90,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",91,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",92,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",94,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",94,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",95,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",96,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",96,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",97,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",98,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",98,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",99,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",99,2026-01-31 04:00:00+00:00,train,1
+"College Park, Maryland, US",100,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",101,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",102,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",102,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",103,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",103,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",104,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",104,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",105,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",106,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",107,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",108,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",110,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",110,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",111,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",111,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",112,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",112,2026-01-31 04:00:00+00:00,train,1
+"Arlington, Texaas, US",113,2026-01-31 04:00:00+00:00,train,0
+"College Park, Maryland, US",113,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",117,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",119,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",120,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",122,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",124,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",125,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",127,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",128,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",129,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",133,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",135,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",136,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",137,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",139,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",140,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",142,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",143,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",145,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",146,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",147,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",151,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",155,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",156,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",158,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",160,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",162,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",163,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",164,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",165,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",167,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",168,2026-01-31 04:00:00+00:00,train,0
+"Arlington, Texaas, US",0,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",1,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",3,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",3,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",4,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",4,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",5,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",6,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",7,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",7,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",8,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",8,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",9,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",9,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",10,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",10,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",11,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",11,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",12,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",12,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",13,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",14,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",14,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",15,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",15,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",16,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",17,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",18,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",18,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",19,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",19,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",20,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",20,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",21,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",21,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",22,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",23,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",24,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",25,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",25,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",26,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",26,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",27,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",27,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",28,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",28,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",29,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",29,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",30,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",31,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",31,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",34,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",34,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",35,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",35,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",37,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",38,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",39,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",39,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",41,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",41,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",42,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",42,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",43,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",44,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",45,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",46,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",46,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",47,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",47,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",48,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",48,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",49,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",49,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",50,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",51,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",52,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",52,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",53,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",53,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",54,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",54,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",55,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",55,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",56,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",57,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",57,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",58,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",58,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",59,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",59,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",60,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",60,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",61,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",62,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",62,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",65,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",66,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",67,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",67,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",68,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",68,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",69,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",69,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",70,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",73,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",73,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",75,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",75,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",76,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",76,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",77,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",77,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",78,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",78,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",79,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",80,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",81,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",82,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",83,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",84,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",84,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",85,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",85,2026-02-01 04:00:00+00:00,train,1
+"College Park, Maryland, US",88,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",90,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",90,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",91,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",92,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",94,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",94,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",95,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",96,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",96,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",97,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",98,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",98,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",99,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",99,2026-02-01 04:00:00+00:00,train,1
+"College Park, Maryland, US",100,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",101,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",102,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",102,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",103,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",103,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",104,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",104,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",105,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",106,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",107,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",108,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",110,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",110,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",111,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",111,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",112,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",112,2026-02-01 04:00:00+00:00,train,1
+"Arlington, Texaas, US",113,2026-02-01 04:00:00+00:00,train,0
+"College Park, Maryland, US",113,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",117,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",119,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",120,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",122,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",124,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",125,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",127,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",128,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",129,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",133,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",135,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",136,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",137,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",139,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",140,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",142,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",143,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",145,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",146,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",147,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",151,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",155,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",156,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",158,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",160,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",162,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",163,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",164,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",165,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",167,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",168,2026-02-01 04:00:00+00:00,train,0
+"Arlington, Texaas, US",0,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",1,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",3,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",3,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",4,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",4,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",5,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",6,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",7,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",7,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",8,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",8,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",9,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",9,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",10,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",10,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",11,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",11,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",12,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",12,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",13,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",14,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",14,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",15,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",15,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",16,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",17,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",18,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",18,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",19,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",19,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",20,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",20,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",21,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",21,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",22,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",23,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",24,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",25,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",25,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",26,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",26,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",27,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",27,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",28,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",28,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",29,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",29,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",30,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",31,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",31,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",34,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",34,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",35,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",35,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",37,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",38,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",39,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",39,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",41,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",41,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",42,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",42,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",43,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",44,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",45,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",46,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",46,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",47,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",47,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",48,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",48,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",49,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",49,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",50,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",51,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",52,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",52,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",53,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",53,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",54,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",54,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",55,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",55,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",56,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",57,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",57,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",58,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",58,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",59,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",59,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",60,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",60,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",61,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",62,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",62,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",65,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",66,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",67,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",67,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",68,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",68,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",69,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",69,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",70,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",73,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",73,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",75,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",75,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",76,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",76,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",77,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",77,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",78,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",78,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",79,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",80,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",81,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",82,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",83,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",84,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",84,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",85,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",85,2026-02-02 04:00:00+00:00,train,1
+"College Park, Maryland, US",88,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",90,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",90,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",91,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",92,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",94,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",94,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",95,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",96,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",96,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",97,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",98,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",98,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",99,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",99,2026-02-02 04:00:00+00:00,train,1
+"College Park, Maryland, US",100,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",101,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",102,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",102,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",103,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",103,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",104,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",104,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",105,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",106,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",107,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",108,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",110,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",110,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",111,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",111,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",112,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",112,2026-02-02 04:00:00+00:00,train,1
+"Arlington, Texaas, US",113,2026-02-02 04:00:00+00:00,train,0
+"College Park, Maryland, US",113,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",117,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",119,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",120,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",122,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",124,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",125,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",127,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",128,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",129,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",133,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",135,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",136,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",137,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",139,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",140,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",142,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",143,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",145,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",146,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",147,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",151,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",155,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",156,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",158,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",160,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",162,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",163,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",164,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",165,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",167,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",168,2026-02-02 04:00:00+00:00,train,0
+"Arlington, Texaas, US",0,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",1,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",3,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",3,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",4,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",4,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",5,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",6,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",7,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",7,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",8,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",8,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",9,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",9,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",10,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",10,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",11,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",11,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",12,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",12,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",13,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",14,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",14,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",15,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",15,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",16,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",17,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",18,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",18,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",19,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",19,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",20,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",20,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",21,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",21,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",22,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",23,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",24,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",25,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",25,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",26,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",26,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",27,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",27,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",28,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",28,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",29,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",29,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",30,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",31,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",31,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",34,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",34,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",35,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",35,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",37,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",38,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",39,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",39,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",41,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",41,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",42,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",42,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",43,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",44,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",45,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",46,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",46,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",47,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",47,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",48,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",48,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",49,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",49,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",50,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",51,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",52,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",52,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",53,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",53,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",54,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",54,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",55,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",55,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",56,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",57,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",57,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",58,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",58,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",59,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",59,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",60,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",60,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",61,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",62,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",62,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",65,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",66,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",67,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",67,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",68,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",68,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",69,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",69,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",70,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",73,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",73,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",75,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",75,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",76,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",76,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",77,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",77,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",78,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",78,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",79,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",80,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",81,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",82,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",83,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",84,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",84,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",85,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",85,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",88,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",90,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",90,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",91,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",92,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",94,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",94,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",95,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",96,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",96,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",97,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",98,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",98,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",99,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",99,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",100,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",101,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",102,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",102,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",103,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",103,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",104,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",104,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",105,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",106,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",107,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",108,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",110,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",110,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",111,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",111,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",112,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",112,2026-02-03 04:00:00+00:00,train,1
+"Arlington, Texaas, US",113,2026-02-03 04:00:00+00:00,train,0
+"College Park, Maryland, US",113,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",117,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",119,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",120,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",122,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",124,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",125,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",127,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",128,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",129,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",133,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",135,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",136,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",137,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",139,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",140,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",142,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",143,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",145,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",146,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",147,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",151,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",155,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",156,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",158,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",160,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",162,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",163,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",164,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",165,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",167,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",168,2026-02-03 04:00:00+00:00,train,0
+"Arlington, Texaas, US",0,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",1,2026-02-04 04:00:00+00:00,train,1
+"Arlington, Texaas, US",3,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",3,2026-02-04 04:00:00+00:00,train,1
+"Arlington, Texaas, US",4,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",4,2026-02-04 04:00:00+00:00,train,1
+"Arlington, Texaas, US",5,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",6,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",7,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",7,2026-02-04 04:00:00+00:00,train,1
+"Arlington, Texaas, US",8,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",8,2026-02-04 04:00:00+00:00,train,1
+"Arlington, Texaas, US",9,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",9,2026-02-04 04:00:00+00:00,train,1
+"Arlington, Texaas, US",10,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",10,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",11,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",11,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",12,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",12,2026-02-04 04:00:00+00:00,train,1
+"Arlington, Texaas, US",13,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",14,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",14,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",15,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",15,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",16,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",17,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",18,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",18,2026-02-04 04:00:00+00:00,train,1
+"Arlington, Texaas, US",19,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",19,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",20,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",20,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",21,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",21,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",22,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",23,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",24,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",25,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",25,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",26,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",26,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",27,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",27,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",28,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",28,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",29,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",29,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",30,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",31,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",31,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",34,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",34,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",35,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",35,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",37,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",38,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",39,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",39,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",41,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",41,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",42,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",42,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",43,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",44,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",45,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",46,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",46,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",47,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",47,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",48,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",48,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",49,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",49,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",50,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",51,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",52,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",52,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",53,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",53,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",54,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",54,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",55,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",55,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",56,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",57,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",57,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",58,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",58,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",59,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",59,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",60,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",60,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",61,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",62,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",62,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",65,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",66,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",67,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",67,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",68,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",68,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",69,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",69,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",70,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",73,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",73,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",75,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",75,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",76,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",76,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",77,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",77,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",78,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",78,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",79,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",80,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",81,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",82,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",83,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",84,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",84,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",85,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",85,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",88,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",90,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",90,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",91,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",92,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",94,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",94,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",95,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",96,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",96,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",97,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",98,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",98,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",99,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",99,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",100,2026-02-04 04:00:00+00:00,train,1
+"Arlington, Texaas, US",101,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",102,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",102,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",103,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",103,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",104,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",104,2026-02-04 04:00:00+00:00,train,1
+"Arlington, Texaas, US",105,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",106,2026-02-04 04:00:00+00:00,train,1
+"Arlington, Texaas, US",107,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",108,2026-02-04 04:00:00+00:00,train,1
+"Arlington, Texaas, US",110,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",110,2026-02-04 04:00:00+00:00,train,1
+"Arlington, Texaas, US",111,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",111,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",112,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",112,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",113,2026-02-04 04:00:00+00:00,train,0
+"College Park, Maryland, US",113,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",117,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",119,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",120,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",122,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",124,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",125,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",127,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",128,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",129,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",133,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",135,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",136,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",137,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",139,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",140,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",142,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",143,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",145,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",146,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",147,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",151,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",155,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",156,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",158,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",160,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",162,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",163,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",164,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",165,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",167,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",168,2026-02-04 04:00:00+00:00,train,0
+"Arlington, Texaas, US",0,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",1,2026-02-05 04:00:00+00:00,train,1
+"Arlington, Texaas, US",3,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",3,2026-02-05 04:00:00+00:00,train,1
+"Arlington, Texaas, US",4,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",4,2026-02-05 04:00:00+00:00,train,1
+"Arlington, Texaas, US",5,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",6,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",7,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",7,2026-02-05 04:00:00+00:00,train,1
+"Arlington, Texaas, US",8,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",8,2026-02-05 04:00:00+00:00,train,1
+"Arlington, Texaas, US",9,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",9,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",10,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",10,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",11,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",11,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",12,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",12,2026-02-05 04:00:00+00:00,train,1
+"Arlington, Texaas, US",13,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",14,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",14,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",15,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",15,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",16,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",17,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",18,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",18,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",19,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",19,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",20,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",20,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",21,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",21,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",22,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",23,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",24,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",25,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",25,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",26,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",26,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",27,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",27,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",28,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",28,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",29,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",29,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",30,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",31,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",31,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",34,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",34,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",35,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",35,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",37,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",38,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",39,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",39,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",41,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",41,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",42,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",42,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",43,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",44,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",45,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",46,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",46,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",47,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",47,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",48,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",48,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",49,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",49,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",50,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",51,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",52,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",52,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",53,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",53,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",54,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",54,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",55,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",55,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",56,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",57,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",57,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",58,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",58,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",59,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",59,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",60,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",60,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",61,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",62,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",62,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",65,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",66,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",67,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",67,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",68,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",68,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",69,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",69,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",70,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",73,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",73,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",75,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",75,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",76,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",76,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",77,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",77,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",78,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",78,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",79,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",80,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",81,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",82,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",83,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",84,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",84,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",85,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",85,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",88,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",90,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",90,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",91,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",92,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",94,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",94,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",95,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",96,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",96,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",97,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",98,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",98,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",99,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",99,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",100,2026-02-05 04:00:00+00:00,train,1
+"Arlington, Texaas, US",101,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",102,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",102,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",103,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",103,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",104,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",104,2026-02-05 04:00:00+00:00,train,1
+"Arlington, Texaas, US",105,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",106,2026-02-05 04:00:00+00:00,train,1
+"Arlington, Texaas, US",107,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",108,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",110,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",110,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",111,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",111,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",112,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",112,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",113,2026-02-05 04:00:00+00:00,train,0
+"College Park, Maryland, US",113,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",117,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",119,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",120,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",122,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",124,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",125,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",127,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",128,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",129,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",133,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",135,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",136,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",137,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",139,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",140,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",142,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",143,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",145,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",146,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",147,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",151,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",155,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",156,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",158,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",160,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",162,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",163,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",164,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",165,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",167,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",168,2026-02-05 04:00:00+00:00,train,0
+"Arlington, Texaas, US",0,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",3,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",4,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",5,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",6,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",7,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",8,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",9,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",10,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",11,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",12,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",13,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",14,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",15,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",16,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",18,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",19,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",20,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",21,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",22,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",23,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",25,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",26,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",27,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",28,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",29,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",30,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",31,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",34,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",35,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",37,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",39,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",41,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",42,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",43,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",44,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",45,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",46,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",47,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",48,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",49,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",50,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",51,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",52,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",53,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",54,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",55,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",56,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",57,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",58,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",59,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",60,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",61,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",62,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",65,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",66,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",67,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",68,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",69,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",70,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",73,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",75,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",76,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",77,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",78,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",79,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",80,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",81,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",82,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",83,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",84,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",85,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",90,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",91,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",92,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",94,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",95,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",96,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",98,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",99,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",101,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",102,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",103,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",104,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",105,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",107,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",110,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",111,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",112,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",113,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",117,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",119,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",120,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",122,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",124,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",125,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",127,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",128,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",129,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",133,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",135,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",136,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",137,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",139,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",140,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",142,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",143,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",145,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",146,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",147,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",151,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",155,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",156,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",158,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",160,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",162,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",163,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",164,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",165,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",167,2026-02-06 04:00:00+00:00,train,0
+"Arlington, Texaas, US",168,2026-02-06 04:00:00+00:00,train,0
