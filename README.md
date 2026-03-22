@@ -15,6 +15,8 @@ project_root/
 ├── evaluate_all.py               # Aggregates metrics to produce a final leaderboard
 ├── export_results.py             # Exports summary metrics and configuration to an XLSX workbook
 ├── verify_pipeline.py            # Runs integrity checks on folders, data, overlapping splits, and NaNs
+├── plot_gnn_routing_results.py   # Visualizes performance of routing algorithms across the real-world dataset
+├── plot_icy_distribution.py      # Visualizes the ground truth distribution of icy nodes for real-world instances
 ├── config/
 │   └── default_config.yaml       # Master configuration specifying data columns, lags, hyperparams, and split ratios
 ├── utils/
@@ -28,16 +30,39 @@ project_root/
 │   ├── tabular_models.py         # Sklearn/XGBoost registry
 │   └── temporal_gnn.py           # GNN architecture
 ├── data/                         # Processed datasets and schema reports (generated)
-├── graph_data/                   # Raw input CSVs (from OSMnx + Open-Meteo generation scripts)
+├── real_world_instances/         # Raw input CSVs (from OSMnx + Open-Meteo generation scripts) for US cities
+├── synthetic_routing_dataset/    # Locally generated synthetic random graphs for routing logic development
+├── multi_period_routing/         # Core folder hosting Simulated Annealing (SA) routing methods, and GNN inference wrappers
+├── routing_results/              # Contains algorithm execution metrics and plotting outputs for graphs
+├── GNN_training/                 # Specialized scripts related specifically to GNN pipeline training
 └── outputs/                      # Generated models, metrics, plots, configs, and logs
 ```
 
 ## How Raw Data is Interpreted
 
-The pipeline is designed to read outputs synthesized by `openmatro.py` (which produces `graph_data/*.csv`).
+The pipeline is designed to process road weather data separated into two primary buckets: **synthetic** and **real-world** instances.
+
+### 1. `real_world_instances/`
+This directory holds the raw CSV data for US cities like Arlington, Boston, Nashville, etc., mapping real geographical locations to node-level meteorological data.
 - **Entity**: The raw CSVs are **node-day based** (`node_id`, `date`). 
 - **Edges**: The structure is implicitly defined by `edge_list`. 
+- **Visualization**: To view the distribution of ground-truth icy events across these cities over time, run `python plot_icy_distribution.py`. This reads directly from `real_world_instances/` and produces histograms under `histogram_ground_truth_distribution/`.
 - **GNN Mapping**: `train_gnn_temporal.py` builds a global static `edge_index` across all nodes. Node features are processed, and the final edge prediction takes place using a classification head over concatenated node embeddings. An edge is considered `icy_label = 1` if either of its incident nodes are frozen.
+
+### 2. `synthetic_routing_dataset/`
+A suite of purely random, 8-15 node fully-connected graph instances engineered specifically to stress-test the simulated annealing routing frameworks locally without depending on massive OSM data overhead. 
+- **Usage**: Typically generated and updated via `multi_period_routing/generate_graphs.py`. These datasets expose simpler `node` lists alongside probabilistic `weights` representing synthesized road clearance times and ice probabilities. They inform the SA algorithm baseline comparisons and feature pre-placed depot node markers.
+- **Visualization**: When executing `multi_period_routing/generate_graphs.py`, topological images for every underlying `.pickle` instance are drawn to visually map where depots lay concerning their undirected probabilistic edges in `synthetic_routing_dataset/`.
+
+Here is an example structure of a synthetic dataset graph showing randomly distributed edge travel weights, edge probabilities, and automatically configured depot positioning:
+![Synthetic Graph Example](synthetic_routing_dataset/1.png)
+
+### Analyzing Final Routing Results
+Once routing executions (using the Intelligent Memory vs Baseline caches on the GNN predicted graphs) conclude, they yield metrics into `routing_results/`. You can visually digest node coverage vs algorithm execution times by running:
+```bash
+python plot_gnn_routing_results.py
+```
+This generates grouped aesthetic comparison bar charts with error thresholds to help you definitively isolate the best routing approaches per instance.
 
 ## Experimental Controls & Fairness
 

@@ -168,10 +168,8 @@
         "consecutive_icy_days",
         "freeze_thaw"
     ],
-    "n_rows": 2771,
+    "n_rows": 10901,
     "split_counts": {
-        "train": 2211,
-        "test": 500,
-        "val": 60
+        "train": 10901
     }
 }

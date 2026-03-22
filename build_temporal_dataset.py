@@ -46,6 +46,10 @@ def build_dataset(config):
             logger.error(f"Missing required column: {col}")
             return
             
+    # Fill NaNs in features with 0 to prevent dropping entire cities' timeline
+    numerical_cols = full_df.select_dtypes(include=['number']).columns
+    full_df[numerical_cols] = full_df[numerical_cols].fillna(0)
+            
     # Combine static and weather for lag
     # We lag everything possible
     weather_cols = config['data']['weather_cols']
@@ -71,16 +75,8 @@ def build_dataset(config):
     after_len = len(df_temporal)
     logger.info(f"Dropped {before_len - after_len} rows due to temporal shift NaNs.")
     
-    # 3. Apply chronological split
-    logger.info("Performing chronological split...")
-    df_temporal = chronological_split(
-        df_temporal,
-        date_col=config['data']['date_col'],
-        entity_col=config['data']['entity_col'],
-        target_col=config['data']['target_col'],
-        val_days=2,
-        test_days=3
-    )
+    # 3. Add a placeholder split column (will dynamically split in the training scripts)
+    df_temporal['split'] = 'train'
     
     # 4. Save processed tabular dataframe and split manifest
     tabular_out = os.path.join(out_dir, "processed_tabular.csv")

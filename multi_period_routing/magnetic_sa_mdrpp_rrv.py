@@ -391,12 +391,12 @@ def plan_vehicle_trips(G: nx.Graph, dist: dict, depot: int,
             for alt in sorted(alt_depots,
                               key=lambda d: dist.get(current_depot, {}).get(d, float('inf'))):
                 dist_to_alt = dist.get(current_depot, {}).get(alt, float('inf'))
-                if dist_to_alt + capacity > time_budget_left:
+                if dist_to_alt >= capacity or dist_to_alt >= time_budget_left:
                     continue
                 router2 = ProbabilisticMagneticRouter(
                     G=G, dist=dist, start_depot=alt,
                     depots=depots,
-                    capacity=min(capacity, time_budget_left - dist_to_alt),
+                    capacity=min(capacity - dist_to_alt, time_budget_left - dist_to_alt),
                     edge_probs=edge_probs, target_edges=remaining)
                 route2, cost2, covered2 = router2.run_trip()
                 if covered2 and len(route2) > 1:

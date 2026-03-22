@@ -15,6 +15,9 @@ The difference versus LSTM/tabular:
     hidden representation is aware of its own history AND spatially informed by neighbors
 """
 
+import warnings
+warnings.filterwarnings('ignore', category=UserWarning, message=".*A single label was found in 'y_true' and 'y_pred'.*")
+
 import os
 import json
 import pickle
@@ -27,14 +30,21 @@ import pandas as pd
 from utils.io_utils import setup_logger, load_config
 from utils.metrics_utils import compute_metrics, tune_threshold_on_validation, plot_pr_curve, plot_confusion_matrix
 from utils.graph_utils import build_static_graph_structure
-from models.temporal_gnn import TemporalEdgeGNN, StaticEdgeGNN
+from models.temporal_gnn import TemporalNodeGNN, StaticNodeGNN
 from utils.reproducibility import set_seed
 from sklearn.preprocessing import StandardScaler
+from datetime import datetime
 
 logger = setup_logger("TrainGNN", "outputs/logs/train_gnn.log")
 
+TRAIN_AREAS = ['Arlington, Texaas, US', 'Boston, Massachusetts US', 'College Park, Maryland, US', 'Indianapolis, US']
+TEST_AREAS = [
+    'Little Rock, Arkansas, US', 'Louisville, Kentucky, US', 'Lubbock, Texaas, US', 
+    'Memphis, US', 'Nashville, Tennessee, US', 'newyork, US', 'Oklahoma, US', 'Philadelphia, US'
+]
 
-def build_temporal_graph_sequence(df, node2idx, base_features, lag_days, date_col, target_col):
+
+def build_temporal_graph_sequence(df, node2idx, base_features, lag_days, date_col, target_col, edge_weight):
     """
     Builds temporal snapshots with explicit (N, seq_len, F) sequences per day.
     
@@ -56,20 +66,22 @@ def build_temporal_graph_sequence(df, node2idx, base_features, lag_days, date_co
     logger.info("Building per-date node feature lookup tables...")
     date_to_node_features = {}
     date_to_node_labels = {}
+    date_to_node_splits = {}
     for d in dates:
         df_day = df[df[date_col] == d]
         feat_matrix = np.zeros((num_nodes, F), dtype=np.float32)
         label_vec = np.zeros(num_nodes, dtype=np.float32)
+        split_vec = np.empty(num_nodes, dtype=object)
+        split_vec.fill('unknown')
         for _, row in df_day.iterrows():
             idx = node2idx.get(row['node_id'])
             if idx is not None:
                 feat_matrix[idx] = row[base_features].values.astype(np.float32)
                 label_vec[idx] = float(row[target_col])
+                split_vec[idx] = row['split']
         date_to_node_features[d] = feat_matrix
         date_to_node_labels[d] = label_vec
-
-    # Get split mapping
-    date_to_split = df[[date_col, 'split']].drop_duplicates().set_index(date_col)['split'].to_dict()
+        date_to_node_splits[d] = split_vec
 
     snapshots = []
     for i, d in enumerate(dates):
@@ -80,28 +92,32 @@ def build_temporal_graph_sequence(df, node2idx, base_features, lag_days, date_co
         seq_dates = [dates[i - lag_days + t] for t in range(seq_len)]
         x_seq = np.stack([date_to_node_features[sd] for sd in seq_dates], axis=1)  # (N, seq_len, F)
 
-        # Edge labels from current day: edge is icy if either endpoint node is icy
+        # Node labels from current day
         node_labels = date_to_node_labels[d]
+        node_splits = date_to_node_splits[d]
         snapshots.append({
             'date': d,
             'x_seq': torch.tensor(x_seq, dtype=torch.float32),
             'node_labels': torch.tensor(node_labels, dtype=torch.float32),
-            'split': date_to_split.get(d, 'unknown')
+            'edge_weight': edge_weight,
+            'node_splits': node_splits
         })
 
     return snapshots
 
 
-def compute_edge_labels(node_labels_t, edge_index):
-    """Edge is icy if either incident node is icy (OR logic)."""
-    u, v = edge_index[0], edge_index[1]
-    return torch.max(node_labels_t[u], node_labels_t[v])
-
-
-def run_one_model(m_name, model, train_snaps, val_snaps, test_snaps, edge_index, device, config):
+def run_one_model(m_name, model, all_snaps, edge_index, node_areas, device, config):
     """Full training + evaluation loop for one model."""
-    pos_total = sum(compute_edge_labels(s['node_labels'].to(device), edge_index).sum().item() for s in train_snaps)
-    neg_total = sum((1 - compute_edge_labels(s['node_labels'].to(device), edge_index)).sum().item() for s in train_snaps)
+    
+    # Calculate pos_weight over only TRAIN nodes in all_snaps
+    pos_total, neg_total = 0, 0
+    for s in all_snaps:
+        node_lbl = s['node_labels'].to(device)
+        train_mask = torch.tensor(s['node_splits'] == 'train', dtype=torch.bool, device=device)
+        if torch.any(train_mask):
+            pos_total += node_lbl[train_mask].sum().item()
+            neg_total += (1 - node_lbl[train_mask]).sum().item()
+            
     pos_weight = torch.tensor([max(1.0, neg_total / (pos_total + 1e-8))], device=device)
     logger.info(f"{m_name}: pos_weight = {pos_weight.item():.2f}  (pos={int(pos_total)}, neg={int(neg_total)})")
 
@@ -116,62 +132,115 @@ def run_one_model(m_name, model, train_snaps, val_snaps, test_snaps, edge_index,
     epochs_no_improve = 0
     model_path = os.path.join(config['paths']['models_dir'], f"{m_name}_best.pt")
 
+    epoch_logs = []
+
     for epoch in range(config['training']['epochs']):
         model.train()
         train_loss = 0.0
 
-        # Shuffle training snapshots each epoch
-        idxs = np.random.permutation(len(train_snaps))
+        # Shuffle snapshots each epoch
+        idxs = np.random.permutation(len(all_snaps))
+        num_train_batches = 0
 
         for idx in idxs:
-            snap = train_snaps[idx]
-            x = snap['x_seq'].to(device)            # (N, seq_len, F)  or (N, F) for static
-            edge_lbl = compute_edge_labels(snap['node_labels'].to(device), edge_index)
+            snap = all_snaps[idx]
+            train_mask = torch.tensor(snap['node_splits'] == 'train', dtype=torch.bool, device=device)
+            if not torch.any(train_mask):
+                continue
+
+            x = snap['x_seq'].to(device)
+            node_lbl = snap['node_labels'].to(device)
+            edge_weight = snap['edge_weight'].to(device)
 
             optimizer.zero_grad()
-            logits = model(x, edge_index)
-            loss = criterion(logits, edge_lbl)
+            logits = model(x, edge_index, edge_weight)
+            
+            loss = criterion(logits[train_mask], node_lbl[train_mask])
             loss.backward()
             nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
             optimizer.step()
             train_loss += loss.item()
+            num_train_batches += 1
 
-        train_loss /= len(train_snaps)
+        train_loss /= max(1, num_train_batches)
 
-        # Validation (guard against empty val set)
+        # Validation
         model.eval()
-        val_probs, val_targets = [], []
+        epoch_record = {"Epoch": epoch, "Global_Train_Loss": train_loss}
+        
+        # Calculate per-area losses for TRAIN_AREAS
         with torch.no_grad():
-            for snap in val_snaps:
-                x = snap['x_seq'].to(device)
-                edge_lbl = compute_edge_labels(snap['node_labels'].to(device), edge_index)
-                logits = model(x, edge_index)
-                probs = torch.sigmoid(logits)
-                val_probs.extend(probs.cpu().numpy())
-                val_targets.extend(edge_lbl.cpu().numpy())
+            global_val_probs, global_val_targets = [], []
+            for area in TRAIN_AREAS:
+                area_mask = torch.tensor(node_areas == area, dtype=torch.bool, device=device)
+                
+                # Area train loss
+                a_tr_loss = 0.0
+                tr_count = 0
+                for snap in all_snaps:
+                    mask = area_mask & torch.tensor(snap['node_splits'] == 'train', dtype=torch.bool, device=device)
+                    if not torch.any(mask): continue
+                    x = snap['x_seq'].to(device)
+                    node_lbl = snap['node_labels'].to(device)
+                    edge_weight = snap['edge_weight'].to(device)
+                    logits = model(x, edge_index, edge_weight)
+                    a_tr_loss += criterion(logits[mask], node_lbl[mask]).item()
+                    tr_count += 1
+                epoch_record[f"{area}_Train_Loss"] = a_tr_loss / max(1, tr_count) if tr_count > 0 else np.nan
+                
+                # Area val loss and metrics
+                a_va_loss = 0.0
+                a_va_probs, a_va_targets = [], []
+                va_count = 0
+                for snap in all_snaps:
+                    mask = area_mask & torch.tensor(snap['node_splits'] == 'val', dtype=torch.bool, device=device)
+                    if not torch.any(mask): continue
+                    x = snap['x_seq'].to(device)
+                    node_lbl = snap['node_labels'].to(device)
+                    edge_weight = snap['edge_weight'].to(device)
+                    logits = model(x, edge_index, edge_weight)
+                    a_va_loss += criterion(logits[mask], node_lbl[mask]).item()
+                    a_va_probs.extend(torch.sigmoid(logits[mask]).cpu().numpy())
+                    a_va_targets.extend(node_lbl[mask].cpu().numpy())
+                    va_count += 1
+                    
+                if va_count > 0:
+                    a_va_metrics = compute_metrics(np.array(a_va_targets), np.array(a_va_probs))
+                    epoch_record[f"{area}_Val_Loss"] = a_va_loss / va_count
+                    epoch_record[f"{area}_Val_PRAUC"] = a_va_metrics["PR_AUC"]
+                    epoch_record[f"{area}_Val_F1"] = a_va_metrics["F1"]
+                    
+                    global_val_probs.extend(a_va_probs)
+                    global_val_targets.extend(a_va_targets)
+                else:
+                    epoch_record[f"{area}_Val_Loss"] = np.nan
+                    epoch_record[f"{area}_Val_PRAUC"] = np.nan
+                    epoch_record[f"{area}_Val_F1"] = np.nan
 
-        val_metrics = compute_metrics(val_targets, np.array(val_probs))
-        val_prauc = val_metrics['PR_AUC']
+        epoch_logs.append(epoch_record)
         
-        # Only use scheduler and early stopping when we have real val metrics
-        has_val = len(val_targets) > 0 and not (val_prauc != val_prauc)  # NaN check
+        has_val = len(global_val_targets) > 0
         if has_val:
-            scheduler.step(val_prauc)
+            val_metrics = compute_metrics(np.array(global_val_targets), np.array(global_val_probs))
+            val_prauc = val_metrics['PR_AUC']
+            not_nan = not (val_prauc != val_prauc)
+            if not_nan:
+                scheduler.step(val_prauc)
         
-        improved = has_val and val_prauc > best_val_prauc
+        improved = has_val and not_nan and val_prauc > best_val_prauc
         if improved or not has_val:
             if improved:
                 best_val_prauc = val_prauc
-                best_val_probs = list(val_probs)
-                best_val_targets = list(val_targets)
+                best_val_probs = list(global_val_probs)
+                best_val_targets = list(global_val_targets)
                 epochs_no_improve = 0
             torch.save(model.state_dict(), model_path)
-        elif has_val:
+        elif has_val and not_nan:
             epochs_no_improve += 1
 
         if epoch % 20 == 0:
-            prauc_str = f"{val_prauc:.4f}" if has_val else "N/A"
-            f1_str = f"{val_metrics['F1']:.4f}" if has_val else "N/A"
+            prauc_str = f"{val_prauc:.4f}" if (has_val and not_nan) else "N/A"
+            f1_str = f"{val_metrics['F1']:.4f}" if (has_val and not_nan) else "N/A"
             logger.info(f"[{m_name}] Epoch {epoch:03d} | Loss: {train_loss:.4f} | "
                         f"Val PR-AUC: {prauc_str} | Val F1: {f1_str} | "
                         f"LR: {optimizer.param_groups[0]['lr']:.5f}")
@@ -191,37 +260,55 @@ def run_one_model(m_name, model, train_snaps, val_snaps, test_snaps, edge_index,
         best_threshold = 0.5
         logger.warning(f"[{m_name}] No val snapshots available. Using default threshold=0.5")
 
-    test_probs, test_targets = [], []
-    with torch.no_grad():
-        for snap in test_snaps:
-            x = snap['x_seq'].to(device)
-            edge_lbl = compute_edge_labels(snap['node_labels'].to(device), edge_index)
-            logits = model(x, edge_index)
-            probs = torch.sigmoid(logits)
-            test_probs.extend(probs.cpu().numpy())
-            test_targets.extend(edge_lbl.cpu().numpy())
+    # Save loss curves
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    pd.DataFrame(epoch_logs).to_excel(os.path.join(config['paths']['metrics_dir'], f"{m_name}_train_curves_{timestamp}.xlsx"), index=False)
 
-    test_probs = np.array(test_probs)
-    test_targets = np.array(test_targets)
-
-    test_metrics = compute_metrics(test_targets, test_probs, threshold=best_threshold)
-    test_metrics['Model'] = m_name
-    test_metrics['Threshold'] = best_threshold
-    logger.info(f"[{m_name}] Test PR-AUC: {test_metrics['PR_AUC']:.4f} | F1: {test_metrics['F1']:.4f} "
-                f"| Recall: {test_metrics['Recall']:.4f} | Precision: {test_metrics['Precision']:.4f}")
-
-    plot_pr_curve(test_targets, test_probs, m_name,
-                  os.path.join(config['paths']['plots_dir'], f"pr_curve_{m_name}.png"))
-    plot_confusion_matrix(test_targets, (test_probs >= best_threshold).astype(int), m_name,
-                          os.path.join(config['paths']['plots_dir'], f"confusion_matrix_{m_name}.png"))
-
-    df_preds = pd.DataFrame({
-        "true": test_targets, "prob": test_probs,
-        "pred": (test_probs >= best_threshold).astype(int)
-    })
-    df_preds.to_csv(os.path.join(config['paths']['predictions_dir'], f"{m_name}_test_predictions.csv"), index=False)
-
-    return test_metrics
+    # Test Evaluation on 8 Graphs
+    # Combine all logic so we can evaluate each test graph using ALL its snapshots (train+val+test dates).
+    # Since TEST_AREAS are completely independent, we just pass all snaps and filter nodes by area mask
+    all_test_metrics = []
+    
+    for area in TEST_AREAS:
+        mask = torch.tensor(node_areas == area, dtype=torch.bool, device=device)
+        if not torch.any(mask):
+            continue
+            
+        area_probs = []
+        area_targets = []
+        
+        with torch.no_grad():
+            for snap in all_snaps:
+                x = snap['x_seq'].to(device)
+                node_lbl = snap['node_labels'].to(device)
+                edge_weight = snap['edge_weight'].to(device)
+                logits = model(x, edge_index, edge_weight)
+                probs = torch.sigmoid(logits)
+                area_probs.extend(probs[mask].cpu().numpy())
+                area_targets.extend(node_lbl[mask].cpu().numpy())
+                
+        area_probs = np.array(area_probs)
+        area_targets = np.array(area_targets)
+        
+        if len(area_targets) > 0:
+            metrics = compute_metrics(area_targets, area_probs, threshold=best_threshold)
+            metrics['Model'] = m_name
+            metrics['Area'] = area
+            metrics['Threshold'] = best_threshold
+            all_test_metrics.append(metrics)
+            
+    df_preds = pd.DataFrame(all_test_metrics)
+    df_preds.to_excel(os.path.join(config['paths']['metrics_dir'], f"{m_name}_test_metrics_{timestamp}.xlsx"), index=False)
+    
+    logger.info(f"[{m_name}] Evaluated on test areas and saved metrics.")
+    
+    # Calculate global test metrics just for logging
+    if len(all_test_metrics) > 0:
+        avg_prauc = df_preds['PR_AUC'].mean()
+        avg_f1 = df_preds['F1'].mean()
+        logger.info(f"[{m_name}] Test Average PR-AUC: {avg_prauc:.4f} | Average F1: {avg_f1:.4f}")
+        return all_test_metrics[0] # returning one just for aggregation
+    return None
 
 
 def train_gnn():
@@ -231,6 +318,21 @@ def train_gnn():
     data_path = os.path.join(config['paths']['processed_data_dir'], "processed_tabular.csv")
     df = pd.read_csv(data_path)
     df['date'] = pd.to_datetime(df['date'], utc=True)
+    
+    df['split'] = 'unknown'
+    for area in TRAIN_AREAS:
+        area_mask = df['area_id'] == area
+        dates = sorted(df.loc[area_mask, 'date'].unique())
+        if len(dates) == 0: continue
+        split_idx = max(1, int(len(dates) * 0.8))
+        train_dates = dates[:split_idx]
+        val_dates = dates[split_idx:]
+        if len(val_dates) == 0: val_dates = train_dates
+        df.loc[area_mask & df['date'].isin(train_dates), 'split'] = 'train'
+        df.loc[area_mask & df['date'].isin(val_dates), 'split'] = 'val'
+        
+    for area in TEST_AREAS:
+        df.loc[df['area_id'] == area, 'split'] = 'test'
 
     with open(os.path.join(config['paths']['processed_data_dir'], "schema_report.json"), "r") as f:
         schema = json.load(f)
@@ -250,8 +352,8 @@ def train_gnn():
     # ---------------------------------------------------------------
     # Standardize
     # ---------------------------------------------------------------
-    # Fit scaler only on train rows for all_features (used by StaticGNN)
-    train_mask = df['split'] == 'train'
+    # Fit scaler only on train rows AND train areas
+    train_mask = (df['split'] == 'train') & (df['area_id'].isin(TRAIN_AREAS))
     scaler_all = StandardScaler()
     scaler_all.fit(df.loc[train_mask, all_features])
     df_scaled = df.copy()
@@ -270,11 +372,11 @@ def train_gnn():
     # ---------------------------------------------------------------
     # Build static graph
     # ---------------------------------------------------------------
-    node2idx, edge_index = build_static_graph_structure(
+    node2idx, edge_index, edge_weight = build_static_graph_structure(
         df_scaled, entity_col=config['data']['entity_col'],
         edge_list_col=config['data']['edge_list_col']
     )
-    logger.info(f"Static graph: {len(node2idx)} nodes, {edge_index.shape[1]//2} undirected edges")
+    logger.info(f"Static graph: {len(node2idx)} nodes, {edge_index.size(1)} undirected edges")
 
     if edge_index.shape[1] == 0:
         logger.error("No edges found! Check edge_list_col in config.")
@@ -283,46 +385,45 @@ def train_gnn():
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     edge_index = edge_index.to(device)
 
+    # Pre-compute node areas
+    idx2node = {v: k for k, v in node2idx.items()}
+    node_areas = np.array([df[df['node_id'] == idx2node[i]]['area_id'].values[0] for i in range(len(node2idx))])
+
     # ---------------------------------------------------------------
-    # Build temporal snapshots for TemporalEdgeGNN
+    # Build temporal snapshots for TemporalNodeGNN
     # ---------------------------------------------------------------
-    logger.info("Building explicit temporal sequence snapshots (for TemporalEdgeGNN)...")
+    logger.info("Building explicit temporal sequence snapshots (for TemporalNodeGNN)...")
     temporal_snaps = build_temporal_graph_sequence(
         df_scaled, node2idx, base_features, lag_days,
-        date_col=config['data']['date_col'], target_col=target
+        date_col=config['data']['date_col'], target_col=target, edge_weight=edge_weight
     )
-    train_t = [s for s in temporal_snaps if s['split'] == 'train']
-    val_t = [s for s in temporal_snaps if s['split'] == 'val']
-    test_t = [s for s in temporal_snaps if s['split'] == 'test']
-    logger.info(f"TemporalGNN snapshots -> Train: {len(train_t)}, Val: {len(val_t)}, Test: {len(test_t)}")
+    logger.info(f"TemporalGNN snapshots -> Total sequences: {len(temporal_snaps)}")
 
     # ---------------------------------------------------------------
-    # Build flat snapshots for StaticEdgeGNN
+    # Build flat snapshots for StaticNodeGNN
     # ---------------------------------------------------------------
-    dates = sorted(df_scaled['date'].unique())
-    date_to_split = df_scaled[['date', 'split']].drop_duplicates().set_index('date')['split'].to_dict()
-    num_nodes = len(node2idx)
-
+    logger.info("Generating flattened snapshots for StaticNodeGNN...")
     static_snaps = []
+    num_nodes = len(node2idx)
     for d in dates:
         df_d = df_scaled[df_scaled['date'] == d]
         x = np.zeros((num_nodes, len(all_features)), dtype=np.float32)
         labels = np.zeros(num_nodes, dtype=np.float32)
+        split_vec = np.empty(num_nodes, dtype=object)
+        split_vec.fill('unknown')
         for _, row in df_d.iterrows():
             idx = node2idx.get(row['node_id'])
             if idx is not None:
                 x[idx] = row[all_features].values.astype(np.float32)
                 labels[idx] = float(row[target])
+                split_vec[idx] = row['split']
         static_snaps.append({
             'date': d,
             'x_seq': torch.tensor(x, dtype=torch.float32),  # (N, F) - flat
             'node_labels': torch.tensor(labels, dtype=torch.float32),
-            'split': date_to_split.get(d, 'unknown')
+            'edge_weight': edge_weight,
+            'node_splits': split_vec
         })
-
-    train_s = [s for s in static_snaps if s['split'] == 'train']
-    val_s = [s for s in static_snaps if s['split'] == 'val']
-    test_s = [s for s in static_snaps if s['split'] == 'test']
 
     # ---------------------------------------------------------------
     # Models to compare
@@ -330,52 +431,76 @@ def train_gnn():
     hidden_dim = gnn_cfg['hidden_dim']
     dropout = gnn_cfg['dropout']
     temporal_rnn = gnn_cfg['temporal_model']
-
     models_to_run = {
-        "TemporalGNN_GCN": (
-            TemporalEdgeGNN(
+        "TemporalGNN_GCN_GRU": (
+            TemporalNodeGNN(
                 input_dim=len(base_features), hidden_dim=hidden_dim,
-                seq_len=seq_len, dropout=dropout, gnn_type='GCN',
-                temporal_model=temporal_rnn
+                seq_len=gnn_cfg['seq_len'], dropout=dropout,
+                gnn_type='GCN', temporal_model='gru'
             ).to(device),
-            train_t, val_t, test_t
+            temporal_snaps
         ),
-        "TemporalGNN_SAGE": (
-            TemporalEdgeGNN(
+        "TemporalGNN_GCN_LSTM": (
+            TemporalNodeGNN(
                 input_dim=len(base_features), hidden_dim=hidden_dim,
-                seq_len=seq_len, dropout=dropout, gnn_type='SAGE',
-                temporal_model=temporal_rnn
+                seq_len=gnn_cfg['seq_len'], dropout=dropout,
+                gnn_type='GCN', temporal_model='lstm'
             ).to(device),
-            train_t, val_t, test_t
+            temporal_snaps
         ),
-        "TemporalGNN_GAT": (
-            TemporalEdgeGNN(
+        "TemporalGNN_SAGE_GRU": (
+            TemporalNodeGNN(
                 input_dim=len(base_features), hidden_dim=hidden_dim,
-                seq_len=seq_len, dropout=dropout, gnn_type='GAT',
-                temporal_model=temporal_rnn
+                seq_len=gnn_cfg['seq_len'], dropout=dropout,
+                gnn_type='SAGE', temporal_model='gru'
             ).to(device),
-            train_t, val_t, test_t
+            temporal_snaps
+        ),
+        "TemporalGNN_SAGE_LSTM": (
+            TemporalNodeGNN(
+                input_dim=len(base_features), hidden_dim=hidden_dim,
+                seq_len=gnn_cfg['seq_len'], dropout=dropout,
+                gnn_type='SAGE', temporal_model='lstm'
+            ).to(device),
+            temporal_snaps
+        ),
+        "TemporalGNN_GAT_GRU": (
+            TemporalNodeGNN(
+                input_dim=len(base_features), hidden_dim=hidden_dim,
+                seq_len=gnn_cfg['seq_len'], dropout=dropout,
+                gnn_type='GAT', temporal_model='gru'
+            ).to(device),
+            temporal_snaps
+        ),
+        "TemporalGNN_GAT_LSTM": (
+            TemporalNodeGNN(
+                input_dim=len(base_features), hidden_dim=hidden_dim,
+                seq_len=gnn_cfg['seq_len'], dropout=dropout,
+                gnn_type='GAT', temporal_model='lstm'
+            ).to(device),
+            temporal_snaps
         ),
         "StaticGNN_ablation": (
-            StaticEdgeGNN(
+            StaticNodeGNN(
                 input_dim=len(all_features), hidden_dim=hidden_dim,
                 dropout=dropout, gnn_type='GCN'
             ).to(device),
-            train_s, val_s, test_s
+            static_snaps
         ),
     }
 
     all_metrics = []
-    for m_name, (model, tr, vl, te) in models_to_run.items():
+    for m_name, (model, all_snaps) in models_to_run.items():
         logger.info(f"\n{'='*60}\nTraining {m_name}...\n{'='*60}")
-        metrics = run_one_model(m_name, model, tr, vl, te, edge_index, device, config)
-        all_metrics.append(metrics)
+        metrics = run_one_model(m_name, model, all_snaps, edge_index, node_areas, device, config)
+        if metrics:
+            all_metrics.append(metrics)
 
-    df_metrics = pd.DataFrame(all_metrics)
-    metrics_out = os.path.join(config['paths']['metrics_dir'], "gnn_metrics.csv")
-    df_metrics.to_csv(metrics_out, index=False)
-    logger.info(f"\nGNN metrics saved to {metrics_out}")
-    logger.info(df_metrics[['Model', 'PR_AUC', 'F1', 'Recall', 'Precision']].to_string(index=False))
+    if len(all_metrics) > 0:
+        df_metrics = pd.DataFrame(all_metrics)
+        metrics_out = os.path.join(config['paths']['metrics_dir'], "gnn_metrics_summary.csv")
+        df_metrics.to_csv(metrics_out, index=False)
+        logger.info(f"\nGNN metrics summarized to {metrics_out}")
 
 
 if __name__ == "__main__":

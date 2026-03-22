@@ -88,4 +88,4 @@ gnn:
     - "pavement_temp"
     - "ice_thickness"
     - "icy_label_lag1"  # Previous-day prediction as explicit input feature
-  seq_len: 2  # current day + 3 lag days
+  seq_len: 4  # current day + 3 lag days

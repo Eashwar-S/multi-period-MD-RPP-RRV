@@ -15,10 +15,12 @@ def build_static_graph_structure(df, entity_col='node_id', edge_list_col='edge_l
     # 2. Extract edges from one slice of time (since graph is static)
     df_snapshot = df.drop_duplicates(subset=[entity_col]).copy()
     
+    coords = {}
     edges = set()
     for _, row in df_snapshot.iterrows():
         u_raw = row[entity_col]
         u = node2idx[u_raw]
+        coords[u] = (row.get('latitude', 0.0), row.get('longitude', 0.0))
         
         # Parse edge_list str "[1, 2, 3]" -> list [1, 2, 3]
         try:
@@ -37,14 +39,32 @@ def build_static_graph_structure(df, entity_col='node_id', edge_list_col='edge_l
                 edges.add((u, v))
                 edges.add((v, u))
                 
-    # 3. Create edge_index tensor [2, E]
+    # 3. Create edge_index tensor [2, E] and edge_weight tensor [E]
     if len(edges) == 0:
         edge_index = torch.empty((2, 0), dtype=torch.long)
+        edge_weight = torch.empty((0,), dtype=torch.float32)
     else:
         edges_list = list(edges)
-        edge_index = torch.tensor(edges_list, dtype=torch.long).t().contiguous()
+        edge_index_np = np.array(edges_list).T
+        edge_index = torch.tensor(edge_index_np, dtype=torch.long).contiguous()
         
-    return node2idx, edge_index
+        # Calculate inverse distance weights
+        weights = []
+        for u, v in edges_list:
+            lat1, lon1 = coords[u]
+            lat2, lon2 = coords[v]
+            # Simple Euclidean distance approximation for weight
+            dist = np.sqrt((lat1 - lat2)**2 + (lon1 - lon2)**2)
+            # Inverse distance weighting with small epsilon
+            w = 1.0 / (dist + 1e-4)
+            weights.append(w)
+            
+        weights_np = np.array(weights, dtype=np.float32)
+        # Normalize weights
+        weights_np = weights_np / (np.max(weights_np) + 1e-8)
+        edge_weight = torch.tensor(weights_np, dtype=torch.float32)
+        
+    return node2idx, edge_index, edge_weight
 
 def build_daily_snapshots(df, node2idx, edge_index, date_col='date', feature_cols=None, target_col='icy_label'):
     """

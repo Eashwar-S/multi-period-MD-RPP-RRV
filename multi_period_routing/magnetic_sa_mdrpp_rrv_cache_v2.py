@@ -364,7 +364,7 @@ class TripCache:
         self.misses += 1
         return None, None, None, 0.0
 
-    def add_trip(self, start_depot, route, current_length, covered, all_depots, prob_reward):
+    def add_trip(self, start_depot, route, current_length, covered, all_depots, prob_reward, G):
         if not covered:
             return
             
@@ -373,7 +373,9 @@ class TripCache:
         end_depot = route[-1]
         if start_depot != end_depot and start_depot in all_depots and end_depot in all_depots:
             rev_route = list(reversed(route))
-            self._add_single_trip(end_depot, rev_route, current_length, covered, prob_reward)
+            if all(G.has_edge(rev_route[i], rev_route[i+1]) for i in range(len(rev_route)-1)):
+                rev_cost = sum(G[rev_route[i]][rev_route[i+1]]['weight'] for i in range(len(rev_route)-1))
+                self._add_single_trip(end_depot, rev_route, rev_cost, covered, prob_reward)
 
     def _add_single_trip(self, start_depot, route, current_length, covered, prob_reward):
         end_depot = route[-1]
@@ -483,7 +485,7 @@ def plan_vehicle_trips(G: nx.Graph, dist: dict, depot: int,
         # Save to Cache
         if trip_cost > 0 and len(route) > 1 and covered_now and not accept_cache:
             prob_k = sum(edge_probs.get(e, 0.0) for e in covered_now)
-            trip_cache.add_trip(current_depot, route, trip_cost, covered_now, depot_set, prob_k)
+            trip_cache.add_trip(current_depot, route, trip_cost, covered_now, depot_set, prob_k, G)
 
         if trip_cost > 0 and len(route) > 1:
             # ── ASSERT: trip does not exceed vehicle battery capacity ──────
@@ -509,10 +511,10 @@ def plan_vehicle_trips(G: nx.Graph, dist: dict, depot: int,
             for alt in sorted(alt_depots,
                               key=lambda d: dist.get(current_depot, {}).get(d, float('inf'))):
                 dist_to_alt = dist.get(current_depot, {}).get(alt, float('inf'))
-                if dist_to_alt + capacity > time_budget_left:
+                if dist_to_alt >= capacity or dist_to_alt >= time_budget_left:
                     continue
 
-                cap_for_alt = min(capacity, time_budget_left - dist_to_alt)
+                cap_for_alt = min(capacity - dist_to_alt, time_budget_left - dist_to_alt)
                 route2_c, cost2_c, covered2_c, prob_k2_c = trip_cache.get_trip(alt, remaining_set, cap_for_alt)
 
                 route2 = None
@@ -550,7 +552,7 @@ def plan_vehicle_trips(G: nx.Graph, dist: dict, depot: int,
 
                 if covered2 and len(route2) > 1 and not accept_cache2:
                     prob_k2 = sum(edge_probs.get(e, 0.0) for e in covered2)
-                    trip_cache.add_trip(alt, route2, cost2, covered2, depot_set, prob_k2)
+                    trip_cache.add_trip(alt, route2, cost2, covered2, depot_set, prob_k2, G)
 
                 if covered2 and len(route2) > 1:
                     try:
