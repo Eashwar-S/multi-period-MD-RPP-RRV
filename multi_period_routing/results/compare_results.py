@@ -26,20 +26,16 @@ def main():
     df_g.drop(columns=['obj', 'time_s', '%_covered'], inplace=True)
 
     print("Processing SA data...")
+    # 'Approach' is the renamed 'mode' column in the updated xlsx
+    if 'Approach' in df_sa.columns and 'mode' not in df_sa.columns:
+        df_sa.rename(columns={'Approach': 'mode'}, inplace=True)
     graph_info = df_g[['graph_id', 'num_nodes']].drop_duplicates()
     df_sa = df_sa.merge(graph_info, on='graph_id', how='left')
 
     df_combined = pd.concat([df_g, df_sa], ignore_index=True)
     
-    mode_mapping = {
-        'baseline': 'SA',
-        'exact_cache': 'SA-Exact Cache',
-        'intelligent_memory': 'SA-LTMB'
-    }
-    df_combined['mode'] = df_combined['mode'].replace(mode_mapping)
-    
     available_modes = df_combined['mode'].unique().tolist()
-    modes_expected = ['Gurobi', 'SA', 'SA-Exact Cache', 'SA-LTMB']
+    modes_expected = ['Gurobi', 'SA', 'SA + Exact Cache', 'SA + LTMB']
     modes = [m for m in modes_expected if m in available_modes]
     
     csv_out = os.path.join(folder, "combined_results_summary.csv")
@@ -62,15 +58,30 @@ def main():
         '%_covered_mean': 'std'
     }).reindex(modes)
 
-    fig, axes = plt.subplots(1, 3, figsize=(16, 5))
+    fig, axes = plt.subplots(1, 3, figsize=(16, 6))
     for i, (metric, std_col) in enumerate(metrics.items()):
         ax = axes[i]
         x = np.arange(len(modes))
-        ax.bar(x, overall[metric], yerr=overall_std[metric], capsize=5, alpha=0.8, color=colors[:len(modes)])
+        bars = ax.bar(x, overall[metric], yerr=overall_std[metric], capsize=5, alpha=0.8, color=colors[:len(modes)], ecolor='gray')
         ax.set_xticks(x)
         ax.set_xticklabels(modes, rotation=0, ha='center')
         ax.set_title(f'Overall {titles[metric]}')
         ax.set_ylabel(titles[metric])
+        # Add value labels on top of each bar
+        fmt = '.1f' if metric == '%_covered_mean' else '.2f'
+        for bar, err in zip(bars, overall_std[metric].fillna(0)):
+            height = bar.get_height()
+            label_y = height + ax.get_ylim()[1] * 0.01  # just above bar top, not error cap
+            ax.text(
+                bar.get_x() + bar.get_width() / 2,
+                label_y,
+                f'{height:{fmt}}',
+                ha='center', va='bottom',
+                fontsize=12, fontweight='bold'
+            )
+        # Expand y-axis top so labels are not clipped
+        ymax = ax.get_ylim()[1]
+        ax.set_ylim(top=ymax * 1.12)
     plt.tight_layout()
     plt.savefig(os.path.join(folder, "overall_comparison.png"), dpi=300)
     plt.close()
